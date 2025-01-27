@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#Path of the directory in which run_nanoshaper is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+echo "Set LD_LIBRARY_PATH: $SCRIPT_DIR"
+
+export LD_LIBRARY_PATH=$SCRIPT_DIR:$LD_LIBRARY_PATH
+
+CONF_PATH=${1?Error: Surface Configuration not given}
+
+echo "Surface Configuration: $1"
+
+#ldd $SCRIPT_DIR/NanoShaper
+$SCRIPT_DIR/NanoShaper.bin $1
+

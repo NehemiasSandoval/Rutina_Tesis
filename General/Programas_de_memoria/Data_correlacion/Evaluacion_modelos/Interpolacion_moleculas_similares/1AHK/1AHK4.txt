@@ -1,0 +1,2 @@
+Identificador	Puntaje (Structure)	Puntaje (Sequence)
+1AHM	0.6940421147971925	1.0

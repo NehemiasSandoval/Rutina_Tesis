@@ -1,0 +1,1675 @@
+TIMING:bempp:p0_discontinuous_function_space : 6.791e-03s
+TIMING:bempp:p0_discontinuous_function_space : 2.193e-03s
+TIMING:bempp:p0_discontinuous_function_space : 2.910e-03s
+TIMING:bempp:Start operation: 
+TIMING:bempp:Finished Operation: : 0.0004813671112060547s
+TIMING:bempp:assemble_sparse : 1.368e-03s
+/usr/local/lib/python3.10/dist-packages/bempp/api/assembly/discrete_boundary_operator.py:639: SparseEfficiencyWarning: splu converted its input to CSC format
+  solver = solver_interface(actual_mat)
+TIMING:bempp:_Solver.__init__ : 1.937e-03s
+TIMING:bempp:_Solver.solve : 5.746e-05s
+TIMING:bempp:Start operation: 
+TIMING:bempp:Finished Operation: : 0.00026226043701171875s
+TIMING:bempp:assemble_sparse : 8.678e-04s
+TIMING:bempp:_Solver.__init__ : 1.031e-03s
+TIMING:bempp:_Solver.solve : 3.719e-05s
+TIMING:bempp:Start operation: 
+TIMING:bempp:Finished Operation: : 0.00024247169494628906s
+TIMING:bempp:assemble_sparse : 8.337e-04s
+TIMING:bempp:Start operation: Initialising Exafmm.
+TIMING:bempp:Finished Operation: Initialising Exafmm.: 0.35634732246398926s
+TIMING:bempp:Start operation: Singular assembler:laplace_double_layer_boundary:numba
+TIMING:bempp:Finished Operation: Singular assembler:laplace_double_layer_boundary:numba: 0.014048099517822266s
+DEBUG:bempp:Using cached Fmm Interface.
+TIMING:bempp:Start operation: Singular assembler:laplace_single_layer_boundary:numba
+TIMING:bempp:Finished Operation: Singular assembler:laplace_single_layer_boundary:numba: 0.01517343521118164s
+TIMING:bempp:Start operation: Initialising Exafmm.
+TIMING:bempp:Finished Operation: Initialising Exafmm.: 0.20559120178222656s
+TIMING:bempp:Start operation: Singular assembler:modified_helmholtz_double_layer_boundary:numba
+TIMING:bempp:Finished Operation: Singular assembler:modified_helmholtz_double_layer_boundary:numba: 0.025686025619506836s
+DEBUG:bempp:Using cached Fmm Interface.
+TIMING:bempp:Start operation: Singular assembler:modified_helmholtz_single_layer_boundary:numba
+TIMING:bempp:Finished Operation: Singular assembler:modified_helmholtz_single_layer_boundary:numba: 0.047306060791015625s
+INFO:bempp:Starting GMRES iteration
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.019809246063232422s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005631923675537109s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.028118133544921875s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02078843116760254s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.01078343391418457s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03844642639160156s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016665458679199219s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.008489370346069336s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.013834238052368164s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.010246038436889648s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.015853166580200195s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.04244232177734375s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.05718064308166504s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.01844477653503418s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.09317636489868164s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.06210756301879883s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.016141414642333984s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.09919095039367676s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.05540609359741211s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.015065670013427734s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.09011006355285645s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.09997749328613281s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.007193565368652344s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.12553787231445312s
+TIMING:bempp:_Solver.solve : 3.695e-05s
+TIMING:bempp:_Solver.solve : 2.646e-05s
+INFO:bempp:GMRES Iteration 1
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.11355805397033691s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.010840415954589844s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.15518426895141602s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.11428403854370117s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.011677742004394531s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.1495366096496582s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.12301826477050781s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.011640548706054688s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.15754365921020508s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.10468125343322754s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.012330293655395508s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.13843584060668945s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.051454782485961914s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.01756429672241211s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0877542495727539s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.048483848571777344s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006597995758056641s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.07251429557800293s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026931285858154297s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006502628326416016s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03669309616088867s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.023154258728027344s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.010181427001953125s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03500509262084961s
+TIMING:bempp:_Solver.solve : 3.695e-05s
+TIMING:bempp:_Solver.solve : 2.718e-05s
+INFO:bempp:GMRES Iteration 2
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018982410430908203s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0054624080657958984s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.025580644607543945s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017863750457763672s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005459785461425781s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02678513526916504s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017877578735351562s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0054721832275390625s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02645421028137207s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01787567138671875s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005509138107299805s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.026440858840942383s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.04451584815979004s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.008139371871948242s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0550541877746582s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.027907371520996094s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0075495243072509766s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.037326812744140625s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026530742645263672s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.009116649627685547s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0368037223815918s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026071548461914062s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006776094436645508s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03495454788208008s
+TIMING:bempp:_Solver.solve : 3.672e-05s
+TIMING:bempp:_Solver.solve : 2.575e-05s
+INFO:bempp:GMRES Iteration 3
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.015463829040527344s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005509853363037109s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02222299575805664s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017857789993286133s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005579233169555664s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.026242494583129883s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017882585525512695s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005449056625366211s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.026892662048339844s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.13655304908752441s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005467891693115234s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.14458727836608887s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.027574539184570312s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.007279396057128906s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03939533233642578s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02617931365966797s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.007081270217895508s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03432941436767578s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.1044321060180664s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.01766824722290039s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.12467050552368164s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.027648448944091797s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006983518600463867s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.035715579986572266s
+TIMING:bempp:_Solver.solve : 4.220e-05s
+TIMING:bempp:_Solver.solve : 3.076e-05s
+INFO:bempp:GMRES Iteration 4
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0171811580657959s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005615711212158203s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.023908138275146484s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01707315444946289s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005475282669067383s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.023640871047973633s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01107478141784668s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.00648045539855957s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.021688461303710938s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018084287643432617s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012505054473876953s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020388364791870117s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.028094053268432617s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002087116241455078s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.031237363815307617s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.024033546447753906s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002303600311279297s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.027860641479492188s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.027944564819335938s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020751953125s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03134012222290039s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026207685470581055s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021355152130126953s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02935791015625s
+TIMING:bempp:_Solver.solve : 3.672e-05s
+TIMING:bempp:_Solver.solve : 2.074e-05s
+INFO:bempp:GMRES Iteration 5
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0035448074340820312s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001603841781616211s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.007077217102050781s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0017199516296386719s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014216899871826172s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0054285526275634766s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0020003318786621094s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001219034194946289s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.006005525588989258s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016894340515136719s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012087821960449219s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.005656242370605469s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.019879579544067383s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002118349075317383s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02333521842956543s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.020574092864990234s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002178192138671875s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.023942232131958008s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.020337581634521484s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022635459899902344s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02430105209350586s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02520298957824707s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020470619201660156s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.028740882873535156s
+TIMING:bempp:_Solver.solve : 3.147e-05s
+TIMING:bempp:_Solver.solve : 2.193e-05s
+INFO:bempp:GMRES Iteration 6
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.016393661499023438s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001468658447265625s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.019087791442871094s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017800331115722656s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012652873992919922s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020508766174316406s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.019775390625s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.004156351089477539s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.027315855026245117s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.012535810470581055s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012593269348144531s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.023314952850341797s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.015316247940063477s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022432804107666016s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.018854141235351562s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0198972225189209s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021173954010009766s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.023915529251098633s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.023785114288330078s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020682811737060547s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.027415990829467773s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.019762039184570312s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0019273757934570312s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.022732257843017578s
+TIMING:bempp:_Solver.solve : 3.457e-05s
+TIMING:bempp:_Solver.solve : 1.955e-05s
+INFO:bempp:GMRES Iteration 7
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.012696504592895508s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014095306396484375s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.015492677688598633s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01788473129272461s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014445781707763672s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020997047424316406s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.010612010955810547s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012154579162597656s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.013190984725952148s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0029625892639160156s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012099742889404297s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.006849527359008789s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018736600875854492s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002121448516845703s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02208423614501953s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0495600700378418s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.007480621337890625s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.058473825454711914s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0529179573059082s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.007100820541381836s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.07009267807006836s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.03224349021911621s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0018858909606933594s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.054470062255859375s
+TIMING:bempp:_Solver.solve : 3.195e-05s
+TIMING:bempp:_Solver.solve : 3.362e-05s
+INFO:bempp:GMRES Iteration 8
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016677379608154297s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0010938644409179688s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.005086421966552734s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0015935897827148438s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0010647773742675781s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.00481724739074707s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016412734985351562s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0010628700256347656s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0050525665283203125s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016126632690429688s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001065969467163086s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.004854917526245117s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.011364459991455078s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002021312713623047s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01691293716430664s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017772197723388672s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002095937728881836s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020982027053833008s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.012356281280517578s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0018908977508544922s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01595282554626465s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01718759536743164s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0026900768280029297s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.021306753158569336s
+TIMING:bempp:_Solver.solve : 3.290e-05s
+TIMING:bempp:_Solver.solve : 2.599e-05s
+INFO:bempp:GMRES Iteration 9
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016524791717529297s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0011038780212402344s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01001429557800293s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018184900283813477s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014390945434570312s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02080249786376953s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017841815948486328s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014238357543945312s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020899057388305664s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01506662368774414s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0013859272003173828s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.017525434494018555s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.05165576934814453s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022063255310058594s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.05509138107299805s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01535797119140625s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002004861831665039s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02127695083618164s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.021576881408691406s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022346973419189453s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03756380081176758s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02542710304260254s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002056121826171875s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.028728485107421875s
+TIMING:bempp:_Solver.solve : 3.624e-05s
+TIMING:bempp:_Solver.solve : 3.052e-05s
+INFO:bempp:GMRES Iteration 10
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.016628742218017578s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0013053417205810547s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01899242401123047s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017838716506958008s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012598037719726562s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020830631256103516s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017954349517822266s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012888908386230469s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020999670028686523s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018296241760253906s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001409292221069336s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.021034717559814453s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018532991409301758s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022497177124023438s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.021908283233642578s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02373194694519043s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022153854370117188s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0273282527923584s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0190579891204834s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002102375030517578s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.022298574447631836s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018607139587402344s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022585391998291016s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02200627326965332s
+TIMING:bempp:_Solver.solve : 3.481e-05s
+TIMING:bempp:_Solver.solve : 2.646e-05s
+INFO:bempp:GMRES Iteration 11
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.016457319259643555s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001270294189453125s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.018800735473632812s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017881155014038086s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012624263763427734s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02082967758178711s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.013616800308227539s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001268625259399414s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.016694307327270508s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01788187026977539s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001346588134765625s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020453691482543945s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.06046700477600098s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021016597747802734s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0696096420288086s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.1031949520111084s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021848678588867188s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.12143349647521973s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02342700958251953s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022084712982177734s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.04261517524719238s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.013782262802124023s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020651817321777344s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.016887426376342773s
+TIMING:bempp:_Solver.solve : 3.672e-05s
+TIMING:bempp:_Solver.solve : 2.074e-05s
+INFO:bempp:GMRES Iteration 12
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.016566753387451172s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0013990402221679688s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.018903017044067383s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017922639846801758s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012714862823486328s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02080821990966797s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017861127853393555s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.00125885009765625s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02088475227355957s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01260685920715332s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012693405151367188s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.015122652053833008s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.022096633911132812s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0019485950469970703s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.026053905487060547s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.020971059799194336s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020384788513183594s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.024048805236816406s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02785205841064453s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002129077911376953s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03164386749267578s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018946409225463867s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021588802337646484s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.022253036499023438s
+TIMING:bempp:_Solver.solve : 4.721e-05s
+TIMING:bempp:_Solver.solve : 2.265e-05s
+INFO:bempp:GMRES Iteration 13
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01642632484436035s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0015156269073486328s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01910686492919922s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.013674259185791016s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012655258178710938s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01689767837524414s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.1340770721435547s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0068171024322509766s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.1619715690612793s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.019176244735717773s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012583732604980469s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.026234865188598633s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026570558547973633s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002059459686279297s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.029652833938598633s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02742743492126465s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020236968994140625s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03111886978149414s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02656078338623047s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002028226852416992s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.030277013778686523s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02332615852355957s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020608901977539062s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02650618553161621s
+TIMING:bempp:_Solver.solve : 3.123e-05s
+TIMING:bempp:_Solver.solve : 2.217e-05s
+INFO:bempp:GMRES Iteration 14
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.044283151626586914s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006743669509887695s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.052140235900878906s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.1395096778869629s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012629032135009766s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.16081857681274414s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017879962921142578s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001252889633178711s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020818710327148438s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.016158103942871094s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001253366470336914s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01845836639404297s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.05535531044006348s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.009613752365112305s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.08255529403686523s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.029776334762573242s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002325773239135742s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.033394575119018555s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.09535455703735352s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021157264709472656s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.12313532829284668s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.05778789520263672s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021076202392578125s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.06101274490356445s
+TIMING:bempp:_Solver.solve : 3.552e-05s
+TIMING:bempp:_Solver.solve : 2.360e-05s
+INFO:bempp:GMRES Iteration 15
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.016554832458496094s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001596212387084961s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01929330825805664s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01397705078125s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014948844909667969s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.016857147216796875s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02413177490234375s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012505054473876953s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.027115583419799805s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.009591817855834961s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.004314422607421875s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.023208141326904297s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02990102767944336s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005887031555175781s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.04135775566101074s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.015537500381469727s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.003936767578125s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03316330909729004s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07664155960083008s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022046566009521484s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.08004140853881836s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.012089014053344727s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0070323944091796875s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.04525160789489746s
+TIMING:bempp:_Solver.solve : 3.886e-05s
+TIMING:bempp:_Solver.solve : 2.766e-05s
+INFO:bempp:GMRES Iteration 16
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.025514602661132812s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014057159423828125s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.05251336097717285s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.011358499526977539s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012650489807128906s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.014193534851074219s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.011155843734741211s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001405954360961914s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.013969182968139648s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017731428146362305s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012431144714355469s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020067930221557617s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.061867713928222656s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.007750034332275391s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.07192826271057129s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.029950857162475586s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0065762996673583984s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03772449493408203s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017618417739868164s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006439208984375s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.031958818435668945s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018181800842285156s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0068585872650146484s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02774190902709961s
+TIMING:bempp:_Solver.solve : 4.196e-05s
+TIMING:bempp:_Solver.solve : 3.505e-05s
+INFO:bempp:GMRES Iteration 17
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017070770263671875s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005487680435180664s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02376270294189453s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017658233642578125s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0054683685302734375s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02687549591064453s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017849206924438477s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005463361740112305s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.026266813278198242s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01780390739440918s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.005501270294189453s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.026661396026611328s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.06184720993041992s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.012428760528564453s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.09658551216125488s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.09158706665039062s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006722927093505859s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.10203862190246582s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07865476608276367s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021355152130126953s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.10459518432617188s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026551008224487305s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020294189453125s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.029605627059936523s
+TIMING:bempp:_Solver.solve : 3.743e-05s
+TIMING:bempp:_Solver.solve : 2.337e-05s
+INFO:bempp:GMRES Iteration 18
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.016170501708984375s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012905597686767578s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.018531084060668945s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017902135848999023s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001268625259399414s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02081918716430664s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.013149499893188477s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012464523315429688s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01601552963256836s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017934560775756836s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012593269348144531s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020275115966796875s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.03504443168640137s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002098560333251953s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03857421875s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.12727618217468262s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021958351135253906s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.16393423080444336s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07288837432861328s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006450653076171875s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.10526585578918457s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07133650779724121s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.00703120231628418s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0832054615020752s
+TIMING:bempp:_Solver.solve : 4.745e-05s
+TIMING:bempp:_Solver.solve : 3.004e-05s
+INFO:bempp:GMRES Iteration 19
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0009500980377197266s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0019791126251220703s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.022600889205932617s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.001622915267944336s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001554250717163086s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.006785392761230469s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0017917156219482422s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0011591911315917969s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.005399227142333984s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0017175674438476562s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0010972023010253906s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.005238533020019531s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01852273941040039s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001909017562866211s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.021573543548583984s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.028918743133544922s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020601749420166016s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03232932090759277s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02621293067932129s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002027750015258789s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.029767751693725586s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.022028207778930664s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002092599868774414s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02517390251159668s
+TIMING:bempp:_Solver.solve : 3.719e-05s
+TIMING:bempp:_Solver.solve : 2.074e-05s
+INFO:bempp:GMRES Iteration 20
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.016427993774414062s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012629032135009766s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.018678665161132812s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.019912242889404297s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014193058013916016s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.023196697235107422s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07368206977844238s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006720304489135742s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.08243227005004883s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0770425796508789s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014209747314453125s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.09723949432373047s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07791018486022949s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0024476051330566406s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.09242486953735352s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02440786361694336s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022008419036865234s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.027857065200805664s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.06252527236938477s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.007776975631713867s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.09609818458557129s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.05207109451293945s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002196073532104492s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.07380962371826172s
+TIMING:bempp:_Solver.solve : 3.481e-05s
+TIMING:bempp:_Solver.solve : 2.289e-05s
+INFO:bempp:GMRES Iteration 21
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01763749122619629s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014023780822753906s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020304441452026367s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017803430557250977s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014193058013916016s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02095198631286621s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01786065101623535s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014600753784179688s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020876407623291016s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.010374784469604492s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012316703796386719s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.012591838836669922s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07586479187011719s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0056056976318359375s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.08440017700195312s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018017053604125977s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.007375240325927734s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.050858259201049805s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.04971170425415039s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002189159393310547s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.053002119064331055s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.03004741668701172s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.008428096771240234s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03977680206298828s
+TIMING:bempp:_Solver.solve : 4.339e-05s
+TIMING:bempp:_Solver.solve : 2.456e-05s
+INFO:bempp:GMRES Iteration 22
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.13229823112487793s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0013954639434814453s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.15972280502319336s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017908096313476562s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012645721435546875s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020835161209106445s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017889738082885742s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012886524200439453s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02084207534790039s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01792001724243164s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0013115406036376953s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02041792869567871s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.019901752471923828s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020575523376464844s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.023147106170654297s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026454687118530273s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002175569534301758s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03032660484313965s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.029490947723388672s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002185344696044922s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03328895568847656s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07212400436401367s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002238035202026367s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.07587718963623047s
+TIMING:bempp:_Solver.solve : 4.387e-05s
+TIMING:bempp:_Solver.solve : 3.123e-05s
+INFO:bempp:GMRES Iteration 23
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.13328337669372559s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0015649795532226562s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.14542579650878906s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.014556646347045898s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.00150299072265625s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.017818927764892578s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017874717712402344s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014312267303466797s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02096104621887207s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.00929570198059082s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0016286373138427734s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.011959552764892578s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026885271072387695s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002441883087158203s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.030449390411376953s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02176690101623535s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002279996871948242s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.025358200073242188s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.023231983184814453s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022020339965820312s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03281998634338379s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.021466493606567383s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0022134780883789062s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.025856971740722656s
+TIMING:bempp:_Solver.solve : 3.576e-05s
+TIMING:bempp:_Solver.solve : 2.551e-05s
+INFO:bempp:GMRES Iteration 24
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017880916595458984s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014066696166992188s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02050948143005371s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0010311603546142578s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0011782646179199219s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.003701925277709961s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016696453094482422s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0011718273162841797s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.005339145660400391s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016698837280273438s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014994144439697266s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.005514383316040039s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01940441131591797s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021851062774658203s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.022780895233154297s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.027713537216186523s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002167940139770508s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03141617774963379s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.020761966705322266s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001997232437133789s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.025301456451416016s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.019159793853759766s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0019965171813964844s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.022380352020263672s
+TIMING:bempp:_Solver.solve : 3.314e-05s
+TIMING:bempp:_Solver.solve : 2.551e-05s
+INFO:bempp:GMRES Iteration 25
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01674485206604004s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014123916625976562s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01923370361328125s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.010197877883911133s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0014719963073730469s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.013080596923828125s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016639232635498047s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0011990070343017578s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.005588531494140625s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016407966613769531s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0011942386627197266s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0054781436920166016s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.018889188766479492s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020334720611572266s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02215886116027832s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.028279542922973633s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0059163570404052734s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03566932678222656s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.025586843490600586s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002268552780151367s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.028986692428588867s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026819229125976562s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002187013626098633s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.030111074447631836s
+TIMING:bempp:_Solver.solve : 3.815e-05s
+TIMING:bempp:_Solver.solve : 3.648e-05s
+INFO:bempp:GMRES Iteration 26
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.016133785247802734s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0013751983642578125s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.018665552139282227s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.001699209213256836s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0011026859283447266s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.007702350616455078s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016198158264160156s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0010907649993896484s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.005093812942504883s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016565322875976562s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0010943412780761719s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.005126237869262695s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.019292116165161133s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0019614696502685547s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.022507190704345703s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026874303817749023s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020363330841064453s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03019094467163086s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.028087377548217773s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020983219146728516s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0316007137298584s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.027621030807495117s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002084970474243164s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03087019920349121s
+TIMING:bempp:_Solver.solve : 3.600e-05s
+TIMING:bempp:_Solver.solve : 2.027e-05s
+INFO:bempp:GMRES Iteration 27
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.022058963775634766s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001466989517211914s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.024782657623291016s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.024978160858154297s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006757974624633789s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.056061506271362305s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.03752303123474121s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.00665593147277832s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.061499595642089844s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07541346549987793s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0013041496276855469s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0961923599243164s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.022457122802734375s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020759105682373047s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.025569438934326172s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.019846200942993164s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002093076705932617s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.023529529571533203s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.029178619384765625s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002090930938720703s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03264498710632324s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.04456639289855957s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0019421577453613281s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.051361799240112305s
+TIMING:bempp:_Solver.solve : 3.171e-05s
+TIMING:bempp:_Solver.solve : 2.360e-05s
+INFO:bempp:GMRES Iteration 28
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017258405685424805s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0010857582092285156s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.019343852996826172s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01787257194519043s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012655258178710938s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020967483520507812s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017833471298217773s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.00130462646484375s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0207517147064209s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01303243637084961s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001924753189086914s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.015837430953979492s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.029355287551879883s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002761363983154297s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03809762001037598s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07219696044921875s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002044677734375s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.1026463508605957s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.023532390594482422s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002193927764892578s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.050399065017700195s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.07819342613220215s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002056598663330078s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.08143186569213867s
+TIMING:bempp:_Solver.solve : 3.695e-05s
+TIMING:bempp:_Solver.solve : 2.646e-05s
+INFO:bempp:GMRES Iteration 29
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.03044891357421875s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006471395492553711s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.05675387382507324s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.04519176483154297s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012595653533935547s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.06627130508422852s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0038568973541259766s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012431144714355469s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.006506204605102539s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.017854928970336914s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012674331665039062s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.020090341567993164s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02548384666442871s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002022981643676758s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.028487443923950195s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02686619758605957s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020160675048828125s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03049468994140625s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02348160743713379s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002109527587890625s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.027243852615356445s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02801227569580078s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020914077758789062s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.031102418899536133s
+TIMING:bempp:_Solver.solve : 3.552e-05s
+TIMING:bempp:_Solver.solve : 2.193e-05s
+INFO:bempp:GMRES Iteration 30
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01612710952758789s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012621879577636719s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.018368244171142578s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.014637231826782227s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0011126995086669922s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.017374515533447266s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0016791820526123047s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001093149185180664s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0054721832275390625s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.001644134521484375s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0010883808135986328s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.0051898956298828125s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01896190643310547s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0019049644470214844s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.022092342376708984s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.02399158477783203s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002162456512451172s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.04263019561767578s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.025828838348388672s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020568370819091797s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.028882741928100586s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.027701854705810547s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0020270347595214844s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.030814409255981445s
+TIMING:bempp:_Solver.solve : 4.697e-05s
+TIMING:bempp:_Solver.solve : 2.050e-05s
+INFO:bempp:GMRES Iteration 31
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.01267695426940918s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012428760528564453s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.01508951187133789s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0075817108154296875s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0012526512145996094s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.010975837707519531s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0135345458984375s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.001260995864868164s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.016214609146118164s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.11780738830566406s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.006685495376586914s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.1457352638244629s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.11869502067565918s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0023005008697509766s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.13920068740844727s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.10750293731689453s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002035856246948242s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.13525915145874023s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.0299837589263916s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.002167940139770508s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.03339982032775879s
+TIMING:bempp:Start operation: Evaluating Fmm.
+TIMING:bempp:Start operation: Calling ExaFMM.
+TIMING:bempp:Finished Operation: Calling ExaFMM.: 0.026103734970092773s
+TIMING:bempp:Start operation: Singular Corrections Evaluator.
+TIMING:bempp:Finished Operation: Singular Corrections Evaluator.: 0.0021915435791015625s
+TIMING:bempp:Finished Operation: Evaluating Fmm.: 0.02944493293762207s
+TIMING:bempp:_Solver.solve : 4.196e-05s
+TIMING:bempp:_Solver.solve : 3.386e-05s
+INFO:bempp:GMRES finished in 31 iterations and took 1.03E+01 sec.
+INFO:bempp:Created grid with id 9674c6e9-d505-4c02-a62a-8135b010da51. Elements: 12288. Edges: 18480. Vertices: 6193
+TIMING:bempp:Grid.__init__ : 6.295e-01s
+INFO:bempp:Created grid with id 1e2e8c0f-2210-44b2-a7f2-2620f71d9b6d. Elements: 12288. Edges: 18480. Vertices: 6193
+TIMING:bempp:Grid.__init__ : 2.999e-01s
+TIMING:bempp:_compute_p1_dof_map : 6.699e-03s
+TIMING:bempp:p1_continuous_function_space : 1.163e-01s
+TIMING:bempp:_compute_p1_dof_map : 7.629e-03s
+TIMING:bempp:p1_continuous_function_space : 1.390e-01s
+TIMING:bempp:_compute_p1_dof_map : 6.504e-03s
+TIMING:bempp:p1_continuous_function_space : 1.189e-01s

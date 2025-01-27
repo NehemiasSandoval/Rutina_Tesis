@@ -1,0 +1,60 @@
+Set LD_LIBRARY_PATH: /content/drive/MyDrive/Refinamiento_Adaptativo/General/Software/pkg_nanoshaper_0.7.8
+Surface Configuration: /content/drive/MyDrive/Refinamiento_Adaptativo/General/Software/pkg_nanoshaper_0.7.8/surfaceConfiguration.prm
+
+
+ <<INFO>> Starting NanoShaper 0.7.8
+ <<INFO>> Loading atoms....
+ <<INFO>> Read 892 atoms
+ <<INFO>> Geometric baricenter ->  28.939 10.212 0.5505
+ <<INFO>> Grid is 5
+ <<INFO>> MAX 48.939 30.212 20.5505
+ <<INFO>> MIN 8.939 -9.788 -19.4495
+ <<INFO>> Perfil 90 %
+ <<INFO>> Rmaxdim 36.193
+ <<INFO>> Allocating memory...ok!
+ <<INFO>> Initialization completed
+ <<INFO>> Adjusting self intersection grid 
+ <<INFO>> Self intersection grid is (before) 24
+ <<INFO>> Self intersection grid is 16
+ <<INFO>> Allocating self intersection grid....ok!
+ <<INFO>> Computing alpha shape complex....ok!
+ <<INFO>> Checking 111 probes for self intersections...ok!
+ <<INFO>> Surface build-up time.. 0 [s]
+ <<INFO>> Probe Radius value 1.5
+ <<INFO>> Number of ses cells -> 2100
+ <<INFO>> Number of del_point cells -> 338
+ <<INFO>> Number of regular del_edge cells -> 1036
+ <<INFO>> Number of singular del_edge cells -> 0
+ <<INFO>> Number of regular del_facet cells -> 676
+ <<INFO>> Number of singular del_facet cells -> 25
+ <<INFO>> Use load balancing: 1
+ <<INFO>> Detected 2 logical cores
+ <<INFO>> Setting 2 threads
+ <<INFO>> Inside id value is 5
+ <<INFO>> Ray-tracing panel 0...ok!
+ <<INFO>> Ray-tracing panel 1...ok!
+ <<INFO>> Ray-tracing panel 2...ok!
+ <<INFO>> Ray-tracing computation time.. 0 [s]
+ <<INFO>> Approximated 0 rays (0.00000 %)
+ <<INFO>> Cavity detection time is 0 [s]
+ <<INFO>> Assembling octrees..ok!
+ <<INFO>> Surface computation time.. 0 [s]
+ <<INFO>> Estimated volume 7640.2 [A^3]
+ <<INFO>> Triangulating Surface...
+ <<INFO>> Setting 2 threads
+ <<INFO>> Generating MC vertices...ok!
+ <<INFO>> MC added 0 non analytical vertices
+ <<INFO>> Triangles done
+ <<INFO>> MC time is 0 [s]
+ <<INFO>> Total, grid conformant, surface area is 1606.34 [A^2]
+ <<INFO>> Number of vertices 34 number of triangles 52
+ <<INFO>> Saving in MSMS format, no patch info, no nearest atom..
+ <<INFO>> Smoothing surface...
+ <<INFO>> Saving in MSMS format, no patch info, no nearest atom..ok!
+ <<INFO>> Total Triangulation time 0 [s]
+
+ <<INFO>> If you use NanoShaper please cite these works:
+ <<CITATION>> 	S. Decherchi, W. Rocchia, "A general and Robust Ray-Casting-Based Algorithm for Triangulating Surfaces at the Nanoscale"; PlosOne
+ <<CITATION>> 	link: http://www.plosone.org/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pone.0059744
+
+

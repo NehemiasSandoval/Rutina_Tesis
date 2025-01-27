@@ -1,0 +1,33 @@
+Set LD_LIBRARY_PATH: /content/drive/MyDrive/Refinamiento_Adaptativo/General/Software/pkg_nanoshaper_0.7.8
+Surface Configuration: /content/drive/MyDrive/Refinamiento_Adaptativo/General/Software/pkg_nanoshaper_0.7.8/surfaceConfiguration.prm
+
+
+ <<INFO>> Starting NanoShaper 0.7.8
+ <<INFO>> Loading atoms....
+ <<INFO>> Read 882 atoms
+ <<INFO>> Geometric baricenter ->  26.3285 8.518 2.958
+ <<INFO>> Grid is 1
+ <<INFO>> MAX -nan -nan -nan
+ <<INFO>> MIN -nan -nan -nan
+ <<INFO>> Perfil 90 %
+ <<INFO>> Rmaxdim 39.05
+ <<INFO>> Allocating memory...ok!
+ <<INFO>> Initialization completed
+ <<INFO>> Adjusting self intersection grid 
+ <<INFO>> Self intersection grid is (before) 26
+ <<INFO>> Self intersection grid is 16
+ <<INFO>> Allocating self intersection grid....ok!
+ <<INFO>> Computing alpha shape complex....ok!
+ <<INFO>> Checking 131 probes for self intersections...ok!
+ <<INFO>> Surface build-up time.. 0 [s]
+ <<INFO>> Probe Radius value 1.5
+ <<INFO>> Number of ses cells -> 2178
+ <<INFO>> Number of del_point cells -> 349
+ <<INFO>> Number of regular del_edge cells -> 1073
+ <<INFO>> Number of singular del_edge cells -> 0
+ <<INFO>> Number of regular del_facet cells -> 700
+ <<INFO>> Number of singular del_facet cells -> 28
+ <<INFO>> Use load balancing: 1
+ <<INFO>> Detected 2 logical cores
+ <<INFO>> Setting 1 threads
+ <<INFO>> Inside id value is 5

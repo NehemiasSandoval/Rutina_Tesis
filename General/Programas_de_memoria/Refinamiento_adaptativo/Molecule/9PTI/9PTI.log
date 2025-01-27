@@ -1,0 +1,2448 @@
+2024-12-03 14:37:12,360 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2024-12-03 14:37:12,362 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-12-03 14:37:12,362 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-12-03 14:37:12,362 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2024-12-03 14:37:12,362 INFO:main.py:772:main_driver:Loading topology files.
+2024-12-03 14:37:12,432 INFO:main.py:774:main_driver:Loading molecule: 9PTI
+2024-12-03 14:37:13,030 INFO:main.py:777:main_driver:Dropping water from structure.
+2024-12-03 14:37:13,032 INFO:main.py:779:main_driver:Setting up molecule.
+2024-12-03 14:37:13,036 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for MHO.  Parsing as new residue.
+2024-12-03 14:37:13,036 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for PO4.  Parsing as new residue.
+2024-12-03 14:37:13,037 INFO:main.py:417:setup_molecule:Created biomolecule object with 59 residues and 460 atoms.
+2024-12-03 14:37:13,037 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 3.
+2024-12-03 14:37:13,038 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 3.
+2024-12-03 14:37:13,038 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 3.
+2024-12-03 14:37:13,038 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 3. At least one of the instances is being ignored.
+2024-12-03 14:37:13,039 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 7.
+2024-12-03 14:37:13,039 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 7.
+2024-12-03 14:37:13,039 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 7.
+2024-12-03 14:37:13,040 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 7.
+2024-12-03 14:37:13,040 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 7. At least one of the instances is being ignored.
+2024-12-03 14:37:13,040 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 39.
+2024-12-03 14:37:13,040 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 39.
+2024-12-03 14:37:13,041 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 39.
+2024-12-03 14:37:13,041 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 39.
+2024-12-03 14:37:13,041 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 39.
+2024-12-03 14:37:13,041 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 39.
+2024-12-03 14:37:13,042 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 39. At least one of the instances is being ignored.
+2024-12-03 14:37:13,042 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 42.
+2024-12-03 14:37:13,042 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 42.
+2024-12-03 14:37:13,042 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 42.
+2024-12-03 14:37:13,042 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 42.
+2024-12-03 14:37:13,042 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 42.
+2024-12-03 14:37:13,043 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 42.
+2024-12-03 14:37:13,043 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 42. At least one of the instances is being ignored.
+2024-12-03 14:37:13,043 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 49.
+2024-12-03 14:37:13,043 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 49.
+2024-12-03 14:37:13,044 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 49.
+2024-12-03 14:37:13,044 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 49.
+2024-12-03 14:37:13,044 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 49. At least one of the instances is being ignored.
+2024-12-03 14:37:13,044 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 50.
+2024-12-03 14:37:13,044 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 50.
+2024-12-03 14:37:13,044 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 50.
+2024-12-03 14:37:13,045 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 50. At least one of the instances is being ignored.
+2024-12-03 14:37:13,045 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 53.
+2024-12-03 14:37:13,046 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 53.
+2024-12-03 14:37:13,046 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 53.
+2024-12-03 14:37:13,046 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 53.
+2024-12-03 14:37:13,046 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 53.
+2024-12-03 14:37:13,046 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 53.
+2024-12-03 14:37:13,047 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 53. At least one of the instances is being ignored.
+2024-12-03 14:37:13,047 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in GLY A 57.
+2024-12-03 14:37:13,047 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in GLY A 57.
+2024-12-03 14:37:13,047 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in GLY A 57.
+2024-12-03 14:37:13,047 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in GLY A 57.
+2024-12-03 14:37:13,048 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLY A 57. At least one of the instances is being ignored.
+2024-12-03 14:37:13,048 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in ALA A 58.
+2024-12-03 14:37:13,048 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in ALA A 58.
+2024-12-03 14:37:13,049 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in ALA A 58.
+2024-12-03 14:37:13,049 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in ALA A 58.
+2024-12-03 14:37:13,049 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in ALA A 58.
+2024-12-03 14:37:13,049 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OXT in ALA A 58.
+2024-12-03 14:37:13,050 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ALA A 58. At least one of the instances is being ignored.
+2024-12-03 14:37:13,050 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2024-12-03 14:37:13,053 INFO:main.py:613:non_trivial:Loading forcefield.
+2024-12-03 14:37:13,068 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2024-12-03 14:37:13,070 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
+2024-12-03 14:37:13,070 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2024-12-03 14:37:13,072 INFO:main.py:642:non_trivial:Assigning titration states with PROPKA.
+2024-12-03 14:37:13,078 INFO:output.py:74:print_header:
+propka3.5.1                                                                                  2024-12-03
+
+-------------------------------------------------------------------------------
+--                                                                           --
+--  PROPKA: A PROTEIN PKA PREDICTOR                                          --
+--                                                                           --
+--  VERSION 1.0,  04/25/2004,  IOWA CITY                                     --
+--  BY HUI LI                                                                --
+--                                                                           --
+--  VERSION 2.0,  11/05/2007, IOWA CITY/COPENHAGEN                           --
+--  BY DELPHINE C. BAS AND DAVID M. ROGERS                                   --
+--                                                                           --
+--  VERSION 3.0,  01/06/2011, COPENHAGEN                                     --
+--  BY MATS H.M. OLSSON AND CHRESTEN R. SONDERGARD                           --
+--                                                                           --
+--  VERSION 3.1,  07/01/2011, COPENHAGEN                                     --
+--  BY CHRESTEN R. SONDERGARD AND MATS H.M. OLSSON                           --
+--                                                                           --
+--  VERSION 3.2,  06/17/2020, PLANET EARTH                                   --
+--  SEE ABOVE FOR AUTHORS                                                    --
+--                                                                           --
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+References:
+
+Very Fast Empirical Prediction and Rationalization of Protein pKa Values.
+Hui Li, Andrew D. Robertson and Jan H. Jensen. PROTEINS: Structure, Function,
+and Bioinformatics. 61:704-721 (2005)
+
+Very Fast Prediction and Rationalization of pKa Values for Protein-Ligand
+Complexes.  Delphine C. Bas, David M. Rogers and Jan H. Jensen.  PROTEINS:
+Structure, Function, and Bioinformatics 73:765-783 (2008)
+
+PROPKA3: Consistent Treatment of Internal and Surface Residues in Empirical
+pKa predictions.  Mats H.M. Olsson, Chresten R. Sondergard, Michal Rostkowski,
+and Jan H. Jensen.  Journal of Chemical Theory and Computation, 7(2):525-537
+(2011)
+
+Improved Treatment of Ligands and Coupling Effects in Empirical Calculation
+and Rationalization of pKa Values.  Chresten R. Sondergaard, Mats H.M. Olsson,
+Michal Rostkowski, and Jan H. Jensen.  Journal of Chemical Theory and
+Computation, (2011)
+-------------------------------------------------------------------------------
+
+
+
+2024-12-03 14:37:13,119 INFO:group.py:883:__init__:Found NAM group:   409-   N    52-MHO (A) [  24.450   16.561   -4.096] N
+2024-12-03 14:37:13,120 INFO:group.py:977:__init__:Found O2  group:   416-   O    52-MHO (A) [  25.319   17.632   -7.391] O
+2024-12-03 14:37:13,121 INFO:group.py:923:__init__:Found OH  group:   417- OD1    52-MHO (A) [  20.864   13.789   -6.146] O
+2024-12-03 14:37:13,123 INFO:conformation_container.py:124:find_covalently_coupled_groups:Coupling map:
+
+2024-12-03 14:37:13,124 INFO:conformation_container.py:213:calculate_pka:Calculating pKas for Conformation container 1A with 555 atoms and 145 groups
+2024-12-03 14:37:13,154 INFO:output.py:225:print_pka_section:pKa determinants:
+
+---------  -----   ------   ---------------------    --------------    --------------    --------------
+                            DESOLVATION  EFFECTS       SIDECHAIN          BACKBONE        COULOMBIC
+ RESIDUE    pKa    BURIED     REGULAR      RE        HYDROGEN BOND     HYDROGEN BOND      INTERACTION
+---------  -----   ------   ---------   ---------    --------------    --------------    --------------
+
+ASP   3 A   3.71     0 %    0.17  134   0.00    0    0.00 XXX   0 X   -0.13 ASP   3 A   -0.10 N+    1 A
+ASP   3 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+
+ASP  50 A   3.47     0 %    0.30  203   0.00    0   -0.25 SER  47 A    0.00 XXX   0 X   -0.01 LYS  46 A
+ASP  50 A                                           -0.10 ARG  53 A    0.00 XXX   0 X   -0.26 ARG  53 A
+
+GLU   7 A   4.06     1 %    0.58  284   0.01    0    0.00 XXX   0 X   -0.68 ASN  43 A   -0.14 LYS  41 A
+GLU   7 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.22 ARG  42 A
+
+GLU  49 A   3.96     0 %    0.22  170   0.00    0    0.00 XXX   0 X   -0.09 ALA  48 A   -0.08 ARG  53 A
+GLU  49 A                                            0.00 XXX   0 X   -0.69 GLU  49 A    0.10 ASP  50 A
+
+C-   58 A   3.23     0 %    0.10  131   0.00    0    0.00 XXX   0 X   -0.00 ALA  58 A   -0.07 ARG   1 A
+
+CYS   5 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  14 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  30 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  38 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  51 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  55 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+TYR  10 A  10.01     0 %    0.29  182   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.27 LYS  41 A
+
+TYR  21 A  10.34     0 %    0.23  230   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.10 GLU  49 A
+
+TYR  23 A  10.19     0 %    0.50  251   0.00    0   -0.08 ARG   1 A    0.00 XXX   0 X   -0.34 ARG   1 A
+TYR  23 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.11 C-   58 A
+
+TYR  35 A  10.25     0 %    0.63  237   0.00    0    0.00 XXX   0 X   -0.20 ALA  40 A   -0.18 ARG  20 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.00 ARG  39 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.02 TYR  10 A
+
+LYS  15 A  10.36     0 %   -0.14  113   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  26 A  10.45     0 %   -0.05   89   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  41 A  10.58     0 %   -0.29  200   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.14 GLU   7 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.01 ARG  39 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.27 TYR  10 A
+
+LYS  46 A  10.14     0 %   -0.11  190   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.26 ARG  20 A
+LYS  46 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.01 ASP  50 A
+
+ARG   1 A  12.74     0 %   -0.25  205   0.00    0    0.08 TYR  23 A    0.00 XXX   0 X    0.34 TYR  23 A
+ARG   1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.07 C-   58 A
+
+ARG  17 A  12.35     0 %   -0.15  138   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+ARG  20 A  12.14     2 %   -0.54  286   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.18 TYR  35 A
+
+ARG  39 A  12.39     0 %   -0.12   97   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 TYR  35 A
+
+ARG  42 A  12.49     0 %   -0.26  185   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.03 ASP   3 A
+ARG  42 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.22 GLU   7 A
+
+ARG  53 A  12.74     0 %   -0.20  143   0.00    0    0.10 ASP  50 A    0.00 XXX   0 X    0.08 GLU  49 A
+ARG  53 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.26 ASP  50 A
+
+N+    1 A   7.67     0 %   -0.20  173   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.24 ARG   1 A
+N+    1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.10 ASP   3 A
+
+
+2024-12-03 14:37:13,154 INFO:output.py:227:print_pka_section:pKa summary:
+--------------------------------------------------------------------------------------------------------
+SUMMARY OF THIS PREDICTION
+       Group      pKa  model-pKa   ligand atom-type
+   ASP   3 A     3.71       3.80                      
+   ASP  50 A     3.47       3.80                      
+   GLU   7 A     4.06       4.50                      
+   GLU  49 A     3.96       4.50                      
+   C-   58 A     3.23       3.20                      
+   CYS   5 A    99.99       9.00                      
+   CYS  14 A    99.99       9.00                      
+   CYS  30 A    99.99       9.00                      
+   CYS  38 A    99.99       9.00                      
+   CYS  51 A    99.99       9.00                      
+   CYS  55 A    99.99       9.00                      
+   TYR  10 A    10.01      10.00                      
+   TYR  21 A    10.34      10.00                      
+   TYR  23 A    10.19      10.00                      
+   TYR  35 A    10.25      10.00                      
+   LYS  15 A    10.36      10.50                      
+   LYS  26 A    10.45      10.50                      
+   LYS  41 A    10.58      10.50                      
+   LYS  46 A    10.14      10.50                      
+   ARG   1 A    12.74      12.50                      
+   ARG  17 A    12.35      12.50                      
+   ARG  20 A    12.14      12.50                      
+   ARG  39 A    12.39      12.50                      
+   ARG  42 A    12.49      12.50                      
+   ARG  53 A    12.74      12.50                      
+   N+    1 A     7.67       8.00                      
+
+2024-12-03 14:37:13,164 INFO:main.py:645:non_trivial:PROPKA information:
+--------------------------------------------------------------------------------------------------------
+Free energy of   folding (kcal/mol) as a function of pH (using neutral reference)
+  0.00      3.60
+  1.00      3.60
+  2.00      3.59
+  3.00      3.44
+  4.00      2.77
+  5.00      1.97
+  6.00      1.76
+  7.00      1.69
+  8.00      1.48
+  9.00      1.37
+ 10.00      1.56
+ 11.00      1.71
+ 12.00      1.62
+ 13.00      1.52
+ 14.00      1.54
+
+The pH of optimum stability is  8.9 for which the free energy is    1.4 kcal/mol at 298K
+Could not determine pH values where the free energy is within 80 % of minimum
+Could not determine the pH-range where the free energy is negative
+
+
+Protein charge of folded and unfolded state as a function of pH
+    pH  unfolded  folded
+  0.00     11.00   11.00
+  0.10     11.00   11.00
+  0.20     11.00   11.00
+  0.30     11.00   11.00
+  0.40     11.00   11.00
+  0.50     11.00   11.00
+  0.60     11.00   10.99
+  0.70     10.99   10.99
+  0.80     10.99   10.99
+  0.90     10.99   10.99
+  1.00     10.99   10.99
+  1.10     10.99   10.98
+  1.20     10.98   10.98
+  1.30     10.98   10.97
+  1.40     10.97   10.97
+  1.50     10.97   10.96
+  1.60     10.96   10.95
+  1.70     10.95   10.94
+  1.80     10.94   10.92
+  1.90     10.92   10.90
+  2.00     10.90   10.87
+  2.10     10.88   10.84
+  2.20     10.85   10.80
+  2.30     10.81   10.76
+  2.40     10.77   10.70
+  2.50     10.72   10.63
+  2.60     10.66   10.54
+  2.70     10.58   10.44
+  2.80     10.49   10.33
+  2.90     10.39   10.19
+  3.00     10.28   10.03
+  3.10     10.15    9.86
+  3.20     10.00    9.66
+  3.30      9.84    9.45
+  3.40      9.67    9.22
+  3.50      9.48    8.98
+  3.60      9.29    8.73
+  3.70      9.08    8.47
+  3.80      8.87    8.21
+  3.90      8.65    7.96
+  4.00      8.43    7.72
+  4.10      8.21    7.49
+  4.20      7.99    7.28
+  4.30      7.78    7.09
+  4.40      7.58    6.92
+  4.50      7.38    6.76
+  4.60      7.20    6.63
+  4.70      7.03    6.52
+  4.80      6.87    6.42
+  4.90      6.74    6.34
+  5.00      6.61    6.28
+  5.10      6.51    6.22
+  5.20      6.42    6.18
+  5.30      6.34    6.14
+  5.40      6.28    6.11
+  5.50      6.22    6.09
+  5.60      6.18    6.07
+  5.70      6.14    6.05
+  5.80      6.11    6.03
+  5.90      6.09    6.02
+  6.00      6.06    6.01
+  6.10      6.05    6.00
+  6.20      6.03    5.99
+  6.30      6.02    5.97
+  6.40      6.00    5.96
+  6.50      5.99    5.95
+  6.60      5.98    5.93
+  6.70      5.96    5.91
+  6.80      5.95    5.88
+  6.90      5.93    5.86
+  7.00      5.91    5.82
+  7.10      5.89    5.79
+  7.20      5.86    5.74
+  7.30      5.83    5.69
+  7.40      5.79    5.64
+  7.50      5.75    5.58
+  7.60      5.70    5.52
+  7.70      5.64    5.46
+  7.80      5.58    5.40
+  7.90      5.52    5.34
+  8.00      5.45    5.28
+  8.10      5.38    5.22
+  8.20      5.30    5.16
+  8.30      5.23    5.10
+  8.40      5.16    5.05
+  8.50      5.08    4.99
+  8.60      5.00    4.93
+  8.70      4.91    4.87
+  8.80      4.82    4.80
+  8.90      4.72    4.72
+  9.00      4.60    4.63
+  9.10      4.47    4.52
+  9.20      4.32    4.39
+  9.30      4.14    4.24
+  9.40      3.94    4.06
+  9.50      3.70    3.84
+  9.60      3.43    3.60
+  9.70      3.13    3.31
+  9.80      2.79    2.99
+  9.90      2.42    2.63
+ 10.00      2.03    2.24
+ 10.10      1.62    1.82
+ 10.20      1.19    1.37
+ 10.30      0.76    0.92
+ 10.40      0.32    0.47
+ 10.50     -0.10    0.02
+ 10.60     -0.50   -0.41
+ 10.70     -0.88   -0.81
+ 10.80     -1.23   -1.19
+ 10.90     -1.56   -1.53
+ 11.00     -1.86   -1.85
+ 11.10     -2.13   -2.14
+ 11.20     -2.38   -2.41
+ 11.30     -2.62   -2.66
+ 11.40     -2.84   -2.90
+ 11.50     -3.06   -3.13
+ 11.60     -3.28   -3.36
+ 11.70     -3.50   -3.60
+ 11.80     -3.74   -3.86
+ 11.90     -4.00   -4.12
+ 12.00     -4.28   -4.41
+ 12.10     -4.58   -4.71
+ 12.20     -4.90   -5.02
+ 12.30     -5.24   -5.35
+ 12.40     -5.59   -5.69
+ 12.50     -5.95   -6.03
+ 12.60     -6.30   -6.36
+ 12.70     -6.65   -6.69
+ 12.80     -6.97   -6.99
+ 12.90     -7.27   -7.28
+ 13.00     -7.54   -7.54
+ 13.10     -7.78   -7.77
+ 13.20     -7.99   -7.98
+ 13.30     -8.17   -8.15
+ 13.40     -8.32   -8.30
+ 13.50     -8.45   -8.43
+ 13.60     -8.55   -8.54
+ 13.70     -8.64   -8.63
+ 13.80     -8.71   -8.70
+ 13.90     -8.77   -8.76
+ 14.00     -8.81   -8.81
+The pI is 10.51 (folded) and 10.48 (unfolded)
+
+--------------------------------------------------------------------------------------------------------
+2024-12-03 14:37:13,165 INFO:biomolecule.py:794:apply_pka_values:Applying pKa values at a pH of 7.00:
+2024-12-03 14:37:13,165 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2024-12-03 14:37:13,255 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2024-12-03 14:37:13,256 INFO:__init__.py:370:initialize_wat_optimization:Initializing water bonding optimization...
+2024-12-03 14:37:13,281 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2024-12-03 14:37:13,283 INFO:main.py:722:non_trivial:Regenerating headers.
+2024-12-03 14:37:13,284 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2024-12-03 14:37:13,312 WARNING:main.py:320:print_pqr:Ignoring 1264 header lines in output.
+2024-12-03 14:37:13,315 WARNING:main.py:324:print_pqr:Ignoring 14 missing lines in output.
+2024-12-03 14:37:28,463 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2024-12-03 14:37:28,465 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-12-03 14:37:28,465 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-12-03 14:37:28,465 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2024-12-03 14:37:28,465 INFO:main.py:772:main_driver:Loading topology files.
+2024-12-03 14:37:28,534 INFO:main.py:774:main_driver:Loading molecule: 9PTI
+2024-12-03 14:37:29,126 INFO:main.py:777:main_driver:Dropping water from structure.
+2024-12-03 14:37:29,127 INFO:main.py:779:main_driver:Setting up molecule.
+2024-12-03 14:37:29,131 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for MHO.  Parsing as new residue.
+2024-12-03 14:37:29,132 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for PO4.  Parsing as new residue.
+2024-12-03 14:37:29,132 INFO:main.py:417:setup_molecule:Created biomolecule object with 59 residues and 460 atoms.
+2024-12-03 14:37:29,133 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 3.
+2024-12-03 14:37:29,133 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 3.
+2024-12-03 14:37:29,133 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 3.
+2024-12-03 14:37:29,133 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 3. At least one of the instances is being ignored.
+2024-12-03 14:37:29,134 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 7.
+2024-12-03 14:37:29,134 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 7.
+2024-12-03 14:37:29,134 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 7.
+2024-12-03 14:37:29,134 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 7.
+2024-12-03 14:37:29,134 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 7. At least one of the instances is being ignored.
+2024-12-03 14:37:29,134 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 39.
+2024-12-03 14:37:29,135 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 39.
+2024-12-03 14:37:29,135 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 39.
+2024-12-03 14:37:29,135 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 39.
+2024-12-03 14:37:29,135 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 39.
+2024-12-03 14:37:29,135 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 39.
+2024-12-03 14:37:29,136 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 39. At least one of the instances is being ignored.
+2024-12-03 14:37:29,136 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 42.
+2024-12-03 14:37:29,136 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 42.
+2024-12-03 14:37:29,136 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 42.
+2024-12-03 14:37:29,137 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 42.
+2024-12-03 14:37:29,137 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 42.
+2024-12-03 14:37:29,137 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 42.
+2024-12-03 14:37:29,137 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 42. At least one of the instances is being ignored.
+2024-12-03 14:37:29,137 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 49.
+2024-12-03 14:37:29,137 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 49.
+2024-12-03 14:37:29,138 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 49.
+2024-12-03 14:37:29,138 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 49.
+2024-12-03 14:37:29,138 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 49. At least one of the instances is being ignored.
+2024-12-03 14:37:29,138 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 50.
+2024-12-03 14:37:29,138 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 50.
+2024-12-03 14:37:29,139 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 50.
+2024-12-03 14:37:29,139 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 50. At least one of the instances is being ignored.
+2024-12-03 14:37:29,139 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 53.
+2024-12-03 14:37:29,139 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 53.
+2024-12-03 14:37:29,140 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 53.
+2024-12-03 14:37:29,140 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 53.
+2024-12-03 14:37:29,141 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 53.
+2024-12-03 14:37:29,141 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 53.
+2024-12-03 14:37:29,141 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 53. At least one of the instances is being ignored.
+2024-12-03 14:37:29,141 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in GLY A 57.
+2024-12-03 14:37:29,141 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in GLY A 57.
+2024-12-03 14:37:29,141 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in GLY A 57.
+2024-12-03 14:37:29,141 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in GLY A 57.
+2024-12-03 14:37:29,141 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLY A 57. At least one of the instances is being ignored.
+2024-12-03 14:37:29,142 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in ALA A 58.
+2024-12-03 14:37:29,142 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in ALA A 58.
+2024-12-03 14:37:29,142 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in ALA A 58.
+2024-12-03 14:37:29,142 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in ALA A 58.
+2024-12-03 14:37:29,142 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in ALA A 58.
+2024-12-03 14:37:29,143 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OXT in ALA A 58.
+2024-12-03 14:37:29,143 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ALA A 58. At least one of the instances is being ignored.
+2024-12-03 14:37:29,143 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2024-12-03 14:37:29,145 INFO:main.py:613:non_trivial:Loading forcefield.
+2024-12-03 14:37:29,160 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2024-12-03 14:37:29,161 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
+2024-12-03 14:37:29,162 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2024-12-03 14:37:29,164 INFO:main.py:642:non_trivial:Assigning titration states with PROPKA.
+2024-12-03 14:37:29,170 INFO:output.py:74:print_header:
+propka3.5.1                                                                                  2024-12-03
+
+-------------------------------------------------------------------------------
+--                                                                           --
+--  PROPKA: A PROTEIN PKA PREDICTOR                                          --
+--                                                                           --
+--  VERSION 1.0,  04/25/2004,  IOWA CITY                                     --
+--  BY HUI LI                                                                --
+--                                                                           --
+--  VERSION 2.0,  11/05/2007, IOWA CITY/COPENHAGEN                           --
+--  BY DELPHINE C. BAS AND DAVID M. ROGERS                                   --
+--                                                                           --
+--  VERSION 3.0,  01/06/2011, COPENHAGEN                                     --
+--  BY MATS H.M. OLSSON AND CHRESTEN R. SONDERGARD                           --
+--                                                                           --
+--  VERSION 3.1,  07/01/2011, COPENHAGEN                                     --
+--  BY CHRESTEN R. SONDERGARD AND MATS H.M. OLSSON                           --
+--                                                                           --
+--  VERSION 3.2,  06/17/2020, PLANET EARTH                                   --
+--  SEE ABOVE FOR AUTHORS                                                    --
+--                                                                           --
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+References:
+
+Very Fast Empirical Prediction and Rationalization of Protein pKa Values.
+Hui Li, Andrew D. Robertson and Jan H. Jensen. PROTEINS: Structure, Function,
+and Bioinformatics. 61:704-721 (2005)
+
+Very Fast Prediction and Rationalization of pKa Values for Protein-Ligand
+Complexes.  Delphine C. Bas, David M. Rogers and Jan H. Jensen.  PROTEINS:
+Structure, Function, and Bioinformatics 73:765-783 (2008)
+
+PROPKA3: Consistent Treatment of Internal and Surface Residues in Empirical
+pKa predictions.  Mats H.M. Olsson, Chresten R. Sondergard, Michal Rostkowski,
+and Jan H. Jensen.  Journal of Chemical Theory and Computation, 7(2):525-537
+(2011)
+
+Improved Treatment of Ligands and Coupling Effects in Empirical Calculation
+and Rationalization of pKa Values.  Chresten R. Sondergaard, Mats H.M. Olsson,
+Michal Rostkowski, and Jan H. Jensen.  Journal of Chemical Theory and
+Computation, (2011)
+-------------------------------------------------------------------------------
+
+
+
+2024-12-03 14:37:29,211 INFO:group.py:883:__init__:Found NAM group:   409-   N    52-MHO (A) [  24.450   16.561   -4.096] N
+2024-12-03 14:37:29,212 INFO:group.py:977:__init__:Found O2  group:   416-   O    52-MHO (A) [  25.319   17.632   -7.391] O
+2024-12-03 14:37:29,213 INFO:group.py:923:__init__:Found OH  group:   417- OD1    52-MHO (A) [  20.864   13.789   -6.146] O
+2024-12-03 14:37:29,215 INFO:conformation_container.py:124:find_covalently_coupled_groups:Coupling map:
+
+2024-12-03 14:37:29,216 INFO:conformation_container.py:213:calculate_pka:Calculating pKas for Conformation container 1A with 555 atoms and 145 groups
+2024-12-03 14:37:29,247 INFO:output.py:225:print_pka_section:pKa determinants:
+
+---------  -----   ------   ---------------------    --------------    --------------    --------------
+                            DESOLVATION  EFFECTS       SIDECHAIN          BACKBONE        COULOMBIC
+ RESIDUE    pKa    BURIED     REGULAR      RE        HYDROGEN BOND     HYDROGEN BOND      INTERACTION
+---------  -----   ------   ---------   ---------    --------------    --------------    --------------
+
+ASP   3 A   3.71     0 %    0.17  134   0.00    0    0.00 XXX   0 X   -0.13 ASP   3 A   -0.10 N+    1 A
+ASP   3 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+
+ASP  50 A   3.47     0 %    0.30  203   0.00    0   -0.25 SER  47 A    0.00 XXX   0 X   -0.01 LYS  46 A
+ASP  50 A                                           -0.10 ARG  53 A    0.00 XXX   0 X   -0.26 ARG  53 A
+
+GLU   7 A   4.06     1 %    0.58  284   0.01    0    0.00 XXX   0 X   -0.68 ASN  43 A   -0.14 LYS  41 A
+GLU   7 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.22 ARG  42 A
+
+GLU  49 A   3.96     0 %    0.22  170   0.00    0    0.00 XXX   0 X   -0.09 ALA  48 A   -0.08 ARG  53 A
+GLU  49 A                                            0.00 XXX   0 X   -0.69 GLU  49 A    0.10 ASP  50 A
+
+C-   58 A   3.23     0 %    0.10  131   0.00    0    0.00 XXX   0 X   -0.00 ALA  58 A   -0.07 ARG   1 A
+
+CYS   5 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  14 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  30 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  38 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  51 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  55 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+TYR  10 A  10.01     0 %    0.29  182   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.27 LYS  41 A
+
+TYR  21 A  10.34     0 %    0.23  230   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.10 GLU  49 A
+
+TYR  23 A  10.19     0 %    0.50  251   0.00    0   -0.08 ARG   1 A    0.00 XXX   0 X   -0.34 ARG   1 A
+TYR  23 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.11 C-   58 A
+
+TYR  35 A  10.25     0 %    0.63  237   0.00    0    0.00 XXX   0 X   -0.20 ALA  40 A   -0.18 ARG  20 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.00 ARG  39 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.02 TYR  10 A
+
+LYS  15 A  10.36     0 %   -0.14  113   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  26 A  10.45     0 %   -0.05   89   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  41 A  10.58     0 %   -0.29  200   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.14 GLU   7 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.01 ARG  39 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.27 TYR  10 A
+
+LYS  46 A  10.14     0 %   -0.11  190   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.26 ARG  20 A
+LYS  46 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.01 ASP  50 A
+
+ARG   1 A  12.74     0 %   -0.25  205   0.00    0    0.08 TYR  23 A    0.00 XXX   0 X    0.34 TYR  23 A
+ARG   1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.07 C-   58 A
+
+ARG  17 A  12.35     0 %   -0.15  138   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+ARG  20 A  12.14     2 %   -0.54  286   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.18 TYR  35 A
+
+ARG  39 A  12.39     0 %   -0.12   97   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 TYR  35 A
+
+ARG  42 A  12.49     0 %   -0.26  185   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.03 ASP   3 A
+ARG  42 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.22 GLU   7 A
+
+ARG  53 A  12.74     0 %   -0.20  143   0.00    0    0.10 ASP  50 A    0.00 XXX   0 X    0.08 GLU  49 A
+ARG  53 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.26 ASP  50 A
+
+N+    1 A   7.67     0 %   -0.20  173   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.24 ARG   1 A
+N+    1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.10 ASP   3 A
+
+
+2024-12-03 14:37:29,248 INFO:output.py:227:print_pka_section:pKa summary:
+--------------------------------------------------------------------------------------------------------
+SUMMARY OF THIS PREDICTION
+       Group      pKa  model-pKa   ligand atom-type
+   ASP   3 A     3.71       3.80                      
+   ASP  50 A     3.47       3.80                      
+   GLU   7 A     4.06       4.50                      
+   GLU  49 A     3.96       4.50                      
+   C-   58 A     3.23       3.20                      
+   CYS   5 A    99.99       9.00                      
+   CYS  14 A    99.99       9.00                      
+   CYS  30 A    99.99       9.00                      
+   CYS  38 A    99.99       9.00                      
+   CYS  51 A    99.99       9.00                      
+   CYS  55 A    99.99       9.00                      
+   TYR  10 A    10.01      10.00                      
+   TYR  21 A    10.34      10.00                      
+   TYR  23 A    10.19      10.00                      
+   TYR  35 A    10.25      10.00                      
+   LYS  15 A    10.36      10.50                      
+   LYS  26 A    10.45      10.50                      
+   LYS  41 A    10.58      10.50                      
+   LYS  46 A    10.14      10.50                      
+   ARG   1 A    12.74      12.50                      
+   ARG  17 A    12.35      12.50                      
+   ARG  20 A    12.14      12.50                      
+   ARG  39 A    12.39      12.50                      
+   ARG  42 A    12.49      12.50                      
+   ARG  53 A    12.74      12.50                      
+   N+    1 A     7.67       8.00                      
+
+2024-12-03 14:37:29,258 INFO:main.py:645:non_trivial:PROPKA information:
+--------------------------------------------------------------------------------------------------------
+Free energy of   folding (kcal/mol) as a function of pH (using neutral reference)
+  0.00      3.60
+  1.00      3.60
+  2.00      3.59
+  3.00      3.44
+  4.00      2.77
+  5.00      1.97
+  6.00      1.76
+  7.00      1.69
+  8.00      1.48
+  9.00      1.37
+ 10.00      1.56
+ 11.00      1.71
+ 12.00      1.62
+ 13.00      1.52
+ 14.00      1.54
+
+The pH of optimum stability is  8.9 for which the free energy is    1.4 kcal/mol at 298K
+Could not determine pH values where the free energy is within 80 % of minimum
+Could not determine the pH-range where the free energy is negative
+
+
+Protein charge of folded and unfolded state as a function of pH
+    pH  unfolded  folded
+  0.00     11.00   11.00
+  0.10     11.00   11.00
+  0.20     11.00   11.00
+  0.30     11.00   11.00
+  0.40     11.00   11.00
+  0.50     11.00   11.00
+  0.60     11.00   10.99
+  0.70     10.99   10.99
+  0.80     10.99   10.99
+  0.90     10.99   10.99
+  1.00     10.99   10.99
+  1.10     10.99   10.98
+  1.20     10.98   10.98
+  1.30     10.98   10.97
+  1.40     10.97   10.97
+  1.50     10.97   10.96
+  1.60     10.96   10.95
+  1.70     10.95   10.94
+  1.80     10.94   10.92
+  1.90     10.92   10.90
+  2.00     10.90   10.87
+  2.10     10.88   10.84
+  2.20     10.85   10.80
+  2.30     10.81   10.76
+  2.40     10.77   10.70
+  2.50     10.72   10.63
+  2.60     10.66   10.54
+  2.70     10.58   10.44
+  2.80     10.49   10.33
+  2.90     10.39   10.19
+  3.00     10.28   10.03
+  3.10     10.15    9.86
+  3.20     10.00    9.66
+  3.30      9.84    9.45
+  3.40      9.67    9.22
+  3.50      9.48    8.98
+  3.60      9.29    8.73
+  3.70      9.08    8.47
+  3.80      8.87    8.21
+  3.90      8.65    7.96
+  4.00      8.43    7.72
+  4.10      8.21    7.49
+  4.20      7.99    7.28
+  4.30      7.78    7.09
+  4.40      7.58    6.92
+  4.50      7.38    6.76
+  4.60      7.20    6.63
+  4.70      7.03    6.52
+  4.80      6.87    6.42
+  4.90      6.74    6.34
+  5.00      6.61    6.28
+  5.10      6.51    6.22
+  5.20      6.42    6.18
+  5.30      6.34    6.14
+  5.40      6.28    6.11
+  5.50      6.22    6.09
+  5.60      6.18    6.07
+  5.70      6.14    6.05
+  5.80      6.11    6.03
+  5.90      6.09    6.02
+  6.00      6.06    6.01
+  6.10      6.05    6.00
+  6.20      6.03    5.99
+  6.30      6.02    5.97
+  6.40      6.00    5.96
+  6.50      5.99    5.95
+  6.60      5.98    5.93
+  6.70      5.96    5.91
+  6.80      5.95    5.88
+  6.90      5.93    5.86
+  7.00      5.91    5.82
+  7.10      5.89    5.79
+  7.20      5.86    5.74
+  7.30      5.83    5.69
+  7.40      5.79    5.64
+  7.50      5.75    5.58
+  7.60      5.70    5.52
+  7.70      5.64    5.46
+  7.80      5.58    5.40
+  7.90      5.52    5.34
+  8.00      5.45    5.28
+  8.10      5.38    5.22
+  8.20      5.30    5.16
+  8.30      5.23    5.10
+  8.40      5.16    5.05
+  8.50      5.08    4.99
+  8.60      5.00    4.93
+  8.70      4.91    4.87
+  8.80      4.82    4.80
+  8.90      4.72    4.72
+  9.00      4.60    4.63
+  9.10      4.47    4.52
+  9.20      4.32    4.39
+  9.30      4.14    4.24
+  9.40      3.94    4.06
+  9.50      3.70    3.84
+  9.60      3.43    3.60
+  9.70      3.13    3.31
+  9.80      2.79    2.99
+  9.90      2.42    2.63
+ 10.00      2.03    2.24
+ 10.10      1.62    1.82
+ 10.20      1.19    1.37
+ 10.30      0.76    0.92
+ 10.40      0.32    0.47
+ 10.50     -0.10    0.02
+ 10.60     -0.50   -0.41
+ 10.70     -0.88   -0.81
+ 10.80     -1.23   -1.19
+ 10.90     -1.56   -1.53
+ 11.00     -1.86   -1.85
+ 11.10     -2.13   -2.14
+ 11.20     -2.38   -2.41
+ 11.30     -2.62   -2.66
+ 11.40     -2.84   -2.90
+ 11.50     -3.06   -3.13
+ 11.60     -3.28   -3.36
+ 11.70     -3.50   -3.60
+ 11.80     -3.74   -3.86
+ 11.90     -4.00   -4.12
+ 12.00     -4.28   -4.41
+ 12.10     -4.58   -4.71
+ 12.20     -4.90   -5.02
+ 12.30     -5.24   -5.35
+ 12.40     -5.59   -5.69
+ 12.50     -5.95   -6.03
+ 12.60     -6.30   -6.36
+ 12.70     -6.65   -6.69
+ 12.80     -6.97   -6.99
+ 12.90     -7.27   -7.28
+ 13.00     -7.54   -7.54
+ 13.10     -7.78   -7.77
+ 13.20     -7.99   -7.98
+ 13.30     -8.17   -8.15
+ 13.40     -8.32   -8.30
+ 13.50     -8.45   -8.43
+ 13.60     -8.55   -8.54
+ 13.70     -8.64   -8.63
+ 13.80     -8.71   -8.70
+ 13.90     -8.77   -8.76
+ 14.00     -8.81   -8.81
+The pI is 10.51 (folded) and 10.48 (unfolded)
+
+--------------------------------------------------------------------------------------------------------
+2024-12-03 14:37:29,259 INFO:biomolecule.py:794:apply_pka_values:Applying pKa values at a pH of 7.00:
+2024-12-03 14:37:29,260 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2024-12-03 14:37:29,342 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2024-12-03 14:37:29,342 INFO:__init__.py:370:initialize_wat_optimization:Initializing water bonding optimization...
+2024-12-03 14:37:29,366 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2024-12-03 14:37:29,368 INFO:main.py:722:non_trivial:Regenerating headers.
+2024-12-03 14:37:29,368 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2024-12-03 14:37:29,382 WARNING:main.py:320:print_pqr:Ignoring 1264 header lines in output.
+2024-12-03 14:37:29,383 WARNING:main.py:324:print_pqr:Ignoring 14 missing lines in output.
+2024-12-03 14:55:09,743 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2024-12-03 14:55:10,135 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-12-03 14:55:10,135 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-12-03 14:55:10,135 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2024-12-03 14:55:10,136 INFO:main.py:772:main_driver:Loading topology files.
+2024-12-03 14:55:10,257 INFO:main.py:774:main_driver:Loading molecule: 9PTI
+2024-12-03 14:55:10,446 INFO:main.py:777:main_driver:Dropping water from structure.
+2024-12-03 14:55:10,447 INFO:main.py:779:main_driver:Setting up molecule.
+2024-12-03 14:55:10,451 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for MHO.  Parsing as new residue.
+2024-12-03 14:55:10,452 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for PO4.  Parsing as new residue.
+2024-12-03 14:55:10,453 INFO:main.py:417:setup_molecule:Created biomolecule object with 59 residues and 460 atoms.
+2024-12-03 14:55:10,453 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 3.
+2024-12-03 14:55:10,453 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 3.
+2024-12-03 14:55:10,453 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 3.
+2024-12-03 14:55:10,454 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 3. At least one of the instances is being ignored.
+2024-12-03 14:55:10,454 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 7.
+2024-12-03 14:55:10,454 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 7.
+2024-12-03 14:55:10,454 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 7.
+2024-12-03 14:55:10,454 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 7.
+2024-12-03 14:55:10,454 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 7. At least one of the instances is being ignored.
+2024-12-03 14:55:10,455 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 39.
+2024-12-03 14:55:10,455 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 39.
+2024-12-03 14:55:10,455 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 39.
+2024-12-03 14:55:10,455 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 39.
+2024-12-03 14:55:10,455 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 39.
+2024-12-03 14:55:10,456 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 39.
+2024-12-03 14:55:10,456 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 39. At least one of the instances is being ignored.
+2024-12-03 14:55:10,456 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 42.
+2024-12-03 14:55:10,456 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 42.
+2024-12-03 14:55:10,456 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 42.
+2024-12-03 14:55:10,456 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 42.
+2024-12-03 14:55:10,457 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 42.
+2024-12-03 14:55:10,457 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 42.
+2024-12-03 14:55:10,457 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 42. At least one of the instances is being ignored.
+2024-12-03 14:55:10,457 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 49.
+2024-12-03 14:55:10,458 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 49.
+2024-12-03 14:55:10,458 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 49.
+2024-12-03 14:55:10,458 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 49.
+2024-12-03 14:55:10,459 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 49. At least one of the instances is being ignored.
+2024-12-03 14:55:10,459 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 50.
+2024-12-03 14:55:10,459 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 50.
+2024-12-03 14:55:10,460 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 50.
+2024-12-03 14:55:10,460 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 50. At least one of the instances is being ignored.
+2024-12-03 14:55:10,460 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 53.
+2024-12-03 14:55:10,460 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 53.
+2024-12-03 14:55:10,460 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 53.
+2024-12-03 14:55:10,461 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 53.
+2024-12-03 14:55:10,461 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 53.
+2024-12-03 14:55:10,461 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 53.
+2024-12-03 14:55:10,461 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 53. At least one of the instances is being ignored.
+2024-12-03 14:55:10,462 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in GLY A 57.
+2024-12-03 14:55:10,462 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in GLY A 57.
+2024-12-03 14:55:10,462 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in GLY A 57.
+2024-12-03 14:55:10,463 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in GLY A 57.
+2024-12-03 14:55:10,463 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLY A 57. At least one of the instances is being ignored.
+2024-12-03 14:55:10,463 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in ALA A 58.
+2024-12-03 14:55:10,463 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in ALA A 58.
+2024-12-03 14:55:10,464 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in ALA A 58.
+2024-12-03 14:55:10,464 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in ALA A 58.
+2024-12-03 14:55:10,464 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in ALA A 58.
+2024-12-03 14:55:10,464 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OXT in ALA A 58.
+2024-12-03 14:55:10,464 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ALA A 58. At least one of the instances is being ignored.
+2024-12-03 14:55:10,465 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2024-12-03 14:55:10,467 INFO:main.py:613:non_trivial:Loading forcefield.
+2024-12-03 14:55:10,482 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2024-12-03 14:55:10,483 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
+2024-12-03 14:55:10,484 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2024-12-03 14:55:10,486 INFO:main.py:642:non_trivial:Assigning titration states with PROPKA.
+2024-12-03 14:55:10,492 INFO:output.py:74:print_header:
+propka3.5.1                                                                                  2024-12-03
+
+-------------------------------------------------------------------------------
+--                                                                           --
+--  PROPKA: A PROTEIN PKA PREDICTOR                                          --
+--                                                                           --
+--  VERSION 1.0,  04/25/2004,  IOWA CITY                                     --
+--  BY HUI LI                                                                --
+--                                                                           --
+--  VERSION 2.0,  11/05/2007, IOWA CITY/COPENHAGEN                           --
+--  BY DELPHINE C. BAS AND DAVID M. ROGERS                                   --
+--                                                                           --
+--  VERSION 3.0,  01/06/2011, COPENHAGEN                                     --
+--  BY MATS H.M. OLSSON AND CHRESTEN R. SONDERGARD                           --
+--                                                                           --
+--  VERSION 3.1,  07/01/2011, COPENHAGEN                                     --
+--  BY CHRESTEN R. SONDERGARD AND MATS H.M. OLSSON                           --
+--                                                                           --
+--  VERSION 3.2,  06/17/2020, PLANET EARTH                                   --
+--  SEE ABOVE FOR AUTHORS                                                    --
+--                                                                           --
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+References:
+
+Very Fast Empirical Prediction and Rationalization of Protein pKa Values.
+Hui Li, Andrew D. Robertson and Jan H. Jensen. PROTEINS: Structure, Function,
+and Bioinformatics. 61:704-721 (2005)
+
+Very Fast Prediction and Rationalization of pKa Values for Protein-Ligand
+Complexes.  Delphine C. Bas, David M. Rogers and Jan H. Jensen.  PROTEINS:
+Structure, Function, and Bioinformatics 73:765-783 (2008)
+
+PROPKA3: Consistent Treatment of Internal and Surface Residues in Empirical
+pKa predictions.  Mats H.M. Olsson, Chresten R. Sondergard, Michal Rostkowski,
+and Jan H. Jensen.  Journal of Chemical Theory and Computation, 7(2):525-537
+(2011)
+
+Improved Treatment of Ligands and Coupling Effects in Empirical Calculation
+and Rationalization of pKa Values.  Chresten R. Sondergaard, Mats H.M. Olsson,
+Michal Rostkowski, and Jan H. Jensen.  Journal of Chemical Theory and
+Computation, (2011)
+-------------------------------------------------------------------------------
+
+
+
+2024-12-03 14:55:10,534 INFO:group.py:883:__init__:Found NAM group:   409-   N    52-MHO (A) [  24.450   16.561   -4.096] N
+2024-12-03 14:55:10,535 INFO:group.py:977:__init__:Found O2  group:   416-   O    52-MHO (A) [  25.319   17.632   -7.391] O
+2024-12-03 14:55:10,536 INFO:group.py:923:__init__:Found OH  group:   417- OD1    52-MHO (A) [  20.864   13.789   -6.146] O
+2024-12-03 14:55:10,538 INFO:conformation_container.py:124:find_covalently_coupled_groups:Coupling map:
+
+2024-12-03 14:55:10,539 INFO:conformation_container.py:213:calculate_pka:Calculating pKas for Conformation container 1A with 555 atoms and 145 groups
+2024-12-03 14:55:10,570 INFO:output.py:225:print_pka_section:pKa determinants:
+
+---------  -----   ------   ---------------------    --------------    --------------    --------------
+                            DESOLVATION  EFFECTS       SIDECHAIN          BACKBONE        COULOMBIC
+ RESIDUE    pKa    BURIED     REGULAR      RE        HYDROGEN BOND     HYDROGEN BOND      INTERACTION
+---------  -----   ------   ---------   ---------    --------------    --------------    --------------
+
+ASP   3 A   3.71     0 %    0.17  134   0.00    0    0.00 XXX   0 X   -0.13 ASP   3 A   -0.10 N+    1 A
+ASP   3 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+
+ASP  50 A   3.47     0 %    0.30  203   0.00    0   -0.25 SER  47 A    0.00 XXX   0 X   -0.01 LYS  46 A
+ASP  50 A                                           -0.10 ARG  53 A    0.00 XXX   0 X   -0.26 ARG  53 A
+
+GLU   7 A   4.06     1 %    0.58  284   0.01    0    0.00 XXX   0 X   -0.68 ASN  43 A   -0.14 LYS  41 A
+GLU   7 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.22 ARG  42 A
+
+GLU  49 A   3.96     0 %    0.22  170   0.00    0    0.00 XXX   0 X   -0.09 ALA  48 A   -0.08 ARG  53 A
+GLU  49 A                                            0.00 XXX   0 X   -0.69 GLU  49 A    0.10 ASP  50 A
+
+C-   58 A   3.23     0 %    0.10  131   0.00    0    0.00 XXX   0 X   -0.00 ALA  58 A   -0.07 ARG   1 A
+
+CYS   5 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  14 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  30 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  38 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  51 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  55 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+TYR  10 A  10.01     0 %    0.29  182   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.27 LYS  41 A
+
+TYR  21 A  10.34     0 %    0.23  230   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.10 GLU  49 A
+
+TYR  23 A  10.19     0 %    0.50  251   0.00    0   -0.08 ARG   1 A    0.00 XXX   0 X   -0.34 ARG   1 A
+TYR  23 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.11 C-   58 A
+
+TYR  35 A  10.25     0 %    0.63  237   0.00    0    0.00 XXX   0 X   -0.20 ALA  40 A   -0.18 ARG  20 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.00 ARG  39 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.02 TYR  10 A
+
+LYS  15 A  10.36     0 %   -0.14  113   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  26 A  10.45     0 %   -0.05   89   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  41 A  10.58     0 %   -0.29  200   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.14 GLU   7 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.01 ARG  39 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.27 TYR  10 A
+
+LYS  46 A  10.14     0 %   -0.11  190   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.26 ARG  20 A
+LYS  46 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.01 ASP  50 A
+
+ARG   1 A  12.74     0 %   -0.25  205   0.00    0    0.08 TYR  23 A    0.00 XXX   0 X    0.34 TYR  23 A
+ARG   1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.07 C-   58 A
+
+ARG  17 A  12.35     0 %   -0.15  138   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+ARG  20 A  12.14     2 %   -0.54  286   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.18 TYR  35 A
+
+ARG  39 A  12.39     0 %   -0.12   97   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 TYR  35 A
+
+ARG  42 A  12.49     0 %   -0.26  185   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.03 ASP   3 A
+ARG  42 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.22 GLU   7 A
+
+ARG  53 A  12.74     0 %   -0.20  143   0.00    0    0.10 ASP  50 A    0.00 XXX   0 X    0.08 GLU  49 A
+ARG  53 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.26 ASP  50 A
+
+N+    1 A   7.67     0 %   -0.20  173   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.24 ARG   1 A
+N+    1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.10 ASP   3 A
+
+
+2024-12-03 14:55:10,570 INFO:output.py:227:print_pka_section:pKa summary:
+--------------------------------------------------------------------------------------------------------
+SUMMARY OF THIS PREDICTION
+       Group      pKa  model-pKa   ligand atom-type
+   ASP   3 A     3.71       3.80                      
+   ASP  50 A     3.47       3.80                      
+   GLU   7 A     4.06       4.50                      
+   GLU  49 A     3.96       4.50                      
+   C-   58 A     3.23       3.20                      
+   CYS   5 A    99.99       9.00                      
+   CYS  14 A    99.99       9.00                      
+   CYS  30 A    99.99       9.00                      
+   CYS  38 A    99.99       9.00                      
+   CYS  51 A    99.99       9.00                      
+   CYS  55 A    99.99       9.00                      
+   TYR  10 A    10.01      10.00                      
+   TYR  21 A    10.34      10.00                      
+   TYR  23 A    10.19      10.00                      
+   TYR  35 A    10.25      10.00                      
+   LYS  15 A    10.36      10.50                      
+   LYS  26 A    10.45      10.50                      
+   LYS  41 A    10.58      10.50                      
+   LYS  46 A    10.14      10.50                      
+   ARG   1 A    12.74      12.50                      
+   ARG  17 A    12.35      12.50                      
+   ARG  20 A    12.14      12.50                      
+   ARG  39 A    12.39      12.50                      
+   ARG  42 A    12.49      12.50                      
+   ARG  53 A    12.74      12.50                      
+   N+    1 A     7.67       8.00                      
+
+2024-12-03 14:55:10,580 INFO:main.py:645:non_trivial:PROPKA information:
+--------------------------------------------------------------------------------------------------------
+Free energy of   folding (kcal/mol) as a function of pH (using neutral reference)
+  0.00      3.60
+  1.00      3.60
+  2.00      3.59
+  3.00      3.44
+  4.00      2.77
+  5.00      1.97
+  6.00      1.76
+  7.00      1.69
+  8.00      1.48
+  9.00      1.37
+ 10.00      1.56
+ 11.00      1.71
+ 12.00      1.62
+ 13.00      1.52
+ 14.00      1.54
+
+The pH of optimum stability is  8.9 for which the free energy is    1.4 kcal/mol at 298K
+Could not determine pH values where the free energy is within 80 % of minimum
+Could not determine the pH-range where the free energy is negative
+
+
+Protein charge of folded and unfolded state as a function of pH
+    pH  unfolded  folded
+  0.00     11.00   11.00
+  0.10     11.00   11.00
+  0.20     11.00   11.00
+  0.30     11.00   11.00
+  0.40     11.00   11.00
+  0.50     11.00   11.00
+  0.60     11.00   10.99
+  0.70     10.99   10.99
+  0.80     10.99   10.99
+  0.90     10.99   10.99
+  1.00     10.99   10.99
+  1.10     10.99   10.98
+  1.20     10.98   10.98
+  1.30     10.98   10.97
+  1.40     10.97   10.97
+  1.50     10.97   10.96
+  1.60     10.96   10.95
+  1.70     10.95   10.94
+  1.80     10.94   10.92
+  1.90     10.92   10.90
+  2.00     10.90   10.87
+  2.10     10.88   10.84
+  2.20     10.85   10.80
+  2.30     10.81   10.76
+  2.40     10.77   10.70
+  2.50     10.72   10.63
+  2.60     10.66   10.54
+  2.70     10.58   10.44
+  2.80     10.49   10.33
+  2.90     10.39   10.19
+  3.00     10.28   10.03
+  3.10     10.15    9.86
+  3.20     10.00    9.66
+  3.30      9.84    9.45
+  3.40      9.67    9.22
+  3.50      9.48    8.98
+  3.60      9.29    8.73
+  3.70      9.08    8.47
+  3.80      8.87    8.21
+  3.90      8.65    7.96
+  4.00      8.43    7.72
+  4.10      8.21    7.49
+  4.20      7.99    7.28
+  4.30      7.78    7.09
+  4.40      7.58    6.92
+  4.50      7.38    6.76
+  4.60      7.20    6.63
+  4.70      7.03    6.52
+  4.80      6.87    6.42
+  4.90      6.74    6.34
+  5.00      6.61    6.28
+  5.10      6.51    6.22
+  5.20      6.42    6.18
+  5.30      6.34    6.14
+  5.40      6.28    6.11
+  5.50      6.22    6.09
+  5.60      6.18    6.07
+  5.70      6.14    6.05
+  5.80      6.11    6.03
+  5.90      6.09    6.02
+  6.00      6.06    6.01
+  6.10      6.05    6.00
+  6.20      6.03    5.99
+  6.30      6.02    5.97
+  6.40      6.00    5.96
+  6.50      5.99    5.95
+  6.60      5.98    5.93
+  6.70      5.96    5.91
+  6.80      5.95    5.88
+  6.90      5.93    5.86
+  7.00      5.91    5.82
+  7.10      5.89    5.79
+  7.20      5.86    5.74
+  7.30      5.83    5.69
+  7.40      5.79    5.64
+  7.50      5.75    5.58
+  7.60      5.70    5.52
+  7.70      5.64    5.46
+  7.80      5.58    5.40
+  7.90      5.52    5.34
+  8.00      5.45    5.28
+  8.10      5.38    5.22
+  8.20      5.30    5.16
+  8.30      5.23    5.10
+  8.40      5.16    5.05
+  8.50      5.08    4.99
+  8.60      5.00    4.93
+  8.70      4.91    4.87
+  8.80      4.82    4.80
+  8.90      4.72    4.72
+  9.00      4.60    4.63
+  9.10      4.47    4.52
+  9.20      4.32    4.39
+  9.30      4.14    4.24
+  9.40      3.94    4.06
+  9.50      3.70    3.84
+  9.60      3.43    3.60
+  9.70      3.13    3.31
+  9.80      2.79    2.99
+  9.90      2.42    2.63
+ 10.00      2.03    2.24
+ 10.10      1.62    1.82
+ 10.20      1.19    1.37
+ 10.30      0.76    0.92
+ 10.40      0.32    0.47
+ 10.50     -0.10    0.02
+ 10.60     -0.50   -0.41
+ 10.70     -0.88   -0.81
+ 10.80     -1.23   -1.19
+ 10.90     -1.56   -1.53
+ 11.00     -1.86   -1.85
+ 11.10     -2.13   -2.14
+ 11.20     -2.38   -2.41
+ 11.30     -2.62   -2.66
+ 11.40     -2.84   -2.90
+ 11.50     -3.06   -3.13
+ 11.60     -3.28   -3.36
+ 11.70     -3.50   -3.60
+ 11.80     -3.74   -3.86
+ 11.90     -4.00   -4.12
+ 12.00     -4.28   -4.41
+ 12.10     -4.58   -4.71
+ 12.20     -4.90   -5.02
+ 12.30     -5.24   -5.35
+ 12.40     -5.59   -5.69
+ 12.50     -5.95   -6.03
+ 12.60     -6.30   -6.36
+ 12.70     -6.65   -6.69
+ 12.80     -6.97   -6.99
+ 12.90     -7.27   -7.28
+ 13.00     -7.54   -7.54
+ 13.10     -7.78   -7.77
+ 13.20     -7.99   -7.98
+ 13.30     -8.17   -8.15
+ 13.40     -8.32   -8.30
+ 13.50     -8.45   -8.43
+ 13.60     -8.55   -8.54
+ 13.70     -8.64   -8.63
+ 13.80     -8.71   -8.70
+ 13.90     -8.77   -8.76
+ 14.00     -8.81   -8.81
+The pI is 10.51 (folded) and 10.48 (unfolded)
+
+--------------------------------------------------------------------------------------------------------
+2024-12-03 14:55:10,580 INFO:biomolecule.py:794:apply_pka_values:Applying pKa values at a pH of 7.00:
+2024-12-03 14:55:10,581 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2024-12-03 14:55:10,658 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2024-12-03 14:55:10,659 INFO:__init__.py:370:initialize_wat_optimization:Initializing water bonding optimization...
+2024-12-03 14:55:10,681 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2024-12-03 14:55:10,683 INFO:main.py:722:non_trivial:Regenerating headers.
+2024-12-03 14:55:10,684 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2024-12-03 14:55:10,940 WARNING:main.py:320:print_pqr:Ignoring 1264 header lines in output.
+2024-12-03 14:55:10,941 WARNING:main.py:324:print_pqr:Ignoring 14 missing lines in output.
+2024-12-03 14:55:19,590 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2024-12-03 14:55:19,593 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-12-03 14:55:19,594 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-12-03 14:55:19,610 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2024-12-03 14:55:19,611 INFO:main.py:772:main_driver:Loading topology files.
+2024-12-03 14:55:19,678 INFO:main.py:774:main_driver:Loading molecule: 9PTI
+2024-12-03 14:55:19,823 INFO:main.py:777:main_driver:Dropping water from structure.
+2024-12-03 14:55:19,825 INFO:main.py:779:main_driver:Setting up molecule.
+2024-12-03 14:55:19,829 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for MHO.  Parsing as new residue.
+2024-12-03 14:55:19,830 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for PO4.  Parsing as new residue.
+2024-12-03 14:55:19,830 INFO:main.py:417:setup_molecule:Created biomolecule object with 59 residues and 460 atoms.
+2024-12-03 14:55:19,830 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 3.
+2024-12-03 14:55:19,831 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 3.
+2024-12-03 14:55:19,831 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 3.
+2024-12-03 14:55:19,831 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 3. At least one of the instances is being ignored.
+2024-12-03 14:55:19,831 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 7.
+2024-12-03 14:55:19,832 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 7.
+2024-12-03 14:55:19,832 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 7.
+2024-12-03 14:55:19,832 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 7.
+2024-12-03 14:55:19,833 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 7. At least one of the instances is being ignored.
+2024-12-03 14:55:19,833 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 39.
+2024-12-03 14:55:19,833 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 39.
+2024-12-03 14:55:19,833 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 39.
+2024-12-03 14:55:19,833 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 39.
+2024-12-03 14:55:19,834 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 39.
+2024-12-03 14:55:19,834 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 39.
+2024-12-03 14:55:19,834 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 39. At least one of the instances is being ignored.
+2024-12-03 14:55:19,834 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 42.
+2024-12-03 14:55:19,835 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 42.
+2024-12-03 14:55:19,835 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 42.
+2024-12-03 14:55:19,835 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 42.
+2024-12-03 14:55:19,835 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 42.
+2024-12-03 14:55:19,835 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 42.
+2024-12-03 14:55:19,836 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 42. At least one of the instances is being ignored.
+2024-12-03 14:55:19,836 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 49.
+2024-12-03 14:55:19,836 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 49.
+2024-12-03 14:55:19,836 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 49.
+2024-12-03 14:55:19,836 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 49.
+2024-12-03 14:55:19,836 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 49. At least one of the instances is being ignored.
+2024-12-03 14:55:19,837 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 50.
+2024-12-03 14:55:19,837 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 50.
+2024-12-03 14:55:19,837 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 50.
+2024-12-03 14:55:19,837 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 50. At least one of the instances is being ignored.
+2024-12-03 14:55:19,838 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 53.
+2024-12-03 14:55:19,838 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 53.
+2024-12-03 14:55:19,838 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 53.
+2024-12-03 14:55:19,839 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 53.
+2024-12-03 14:55:19,839 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 53.
+2024-12-03 14:55:19,839 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 53.
+2024-12-03 14:55:19,839 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 53. At least one of the instances is being ignored.
+2024-12-03 14:55:19,839 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in GLY A 57.
+2024-12-03 14:55:19,840 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in GLY A 57.
+2024-12-03 14:55:19,840 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in GLY A 57.
+2024-12-03 14:55:19,840 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in GLY A 57.
+2024-12-03 14:55:19,840 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLY A 57. At least one of the instances is being ignored.
+2024-12-03 14:55:19,841 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in ALA A 58.
+2024-12-03 14:55:19,841 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in ALA A 58.
+2024-12-03 14:55:19,841 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in ALA A 58.
+2024-12-03 14:55:19,842 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in ALA A 58.
+2024-12-03 14:55:19,842 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in ALA A 58.
+2024-12-03 14:55:19,842 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OXT in ALA A 58.
+2024-12-03 14:55:19,842 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ALA A 58. At least one of the instances is being ignored.
+2024-12-03 14:55:19,842 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2024-12-03 14:55:19,845 INFO:main.py:613:non_trivial:Loading forcefield.
+2024-12-03 14:55:19,859 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2024-12-03 14:55:19,861 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
+2024-12-03 14:55:19,861 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2024-12-03 14:55:19,863 INFO:main.py:642:non_trivial:Assigning titration states with PROPKA.
+2024-12-03 14:55:19,869 INFO:output.py:74:print_header:
+propka3.5.1                                                                                  2024-12-03
+
+-------------------------------------------------------------------------------
+--                                                                           --
+--  PROPKA: A PROTEIN PKA PREDICTOR                                          --
+--                                                                           --
+--  VERSION 1.0,  04/25/2004,  IOWA CITY                                     --
+--  BY HUI LI                                                                --
+--                                                                           --
+--  VERSION 2.0,  11/05/2007, IOWA CITY/COPENHAGEN                           --
+--  BY DELPHINE C. BAS AND DAVID M. ROGERS                                   --
+--                                                                           --
+--  VERSION 3.0,  01/06/2011, COPENHAGEN                                     --
+--  BY MATS H.M. OLSSON AND CHRESTEN R. SONDERGARD                           --
+--                                                                           --
+--  VERSION 3.1,  07/01/2011, COPENHAGEN                                     --
+--  BY CHRESTEN R. SONDERGARD AND MATS H.M. OLSSON                           --
+--                                                                           --
+--  VERSION 3.2,  06/17/2020, PLANET EARTH                                   --
+--  SEE ABOVE FOR AUTHORS                                                    --
+--                                                                           --
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+References:
+
+Very Fast Empirical Prediction and Rationalization of Protein pKa Values.
+Hui Li, Andrew D. Robertson and Jan H. Jensen. PROTEINS: Structure, Function,
+and Bioinformatics. 61:704-721 (2005)
+
+Very Fast Prediction and Rationalization of pKa Values for Protein-Ligand
+Complexes.  Delphine C. Bas, David M. Rogers and Jan H. Jensen.  PROTEINS:
+Structure, Function, and Bioinformatics 73:765-783 (2008)
+
+PROPKA3: Consistent Treatment of Internal and Surface Residues in Empirical
+pKa predictions.  Mats H.M. Olsson, Chresten R. Sondergard, Michal Rostkowski,
+and Jan H. Jensen.  Journal of Chemical Theory and Computation, 7(2):525-537
+(2011)
+
+Improved Treatment of Ligands and Coupling Effects in Empirical Calculation
+and Rationalization of pKa Values.  Chresten R. Sondergaard, Mats H.M. Olsson,
+Michal Rostkowski, and Jan H. Jensen.  Journal of Chemical Theory and
+Computation, (2011)
+-------------------------------------------------------------------------------
+
+
+
+2024-12-03 14:55:19,912 INFO:group.py:883:__init__:Found NAM group:   409-   N    52-MHO (A) [  24.450   16.561   -4.096] N
+2024-12-03 14:55:19,913 INFO:group.py:977:__init__:Found O2  group:   416-   O    52-MHO (A) [  25.319   17.632   -7.391] O
+2024-12-03 14:55:19,914 INFO:group.py:923:__init__:Found OH  group:   417- OD1    52-MHO (A) [  20.864   13.789   -6.146] O
+2024-12-03 14:55:19,917 INFO:conformation_container.py:124:find_covalently_coupled_groups:Coupling map:
+
+2024-12-03 14:55:19,918 INFO:conformation_container.py:213:calculate_pka:Calculating pKas for Conformation container 1A with 555 atoms and 145 groups
+2024-12-03 14:55:19,959 INFO:output.py:225:print_pka_section:pKa determinants:
+
+---------  -----   ------   ---------------------    --------------    --------------    --------------
+                            DESOLVATION  EFFECTS       SIDECHAIN          BACKBONE        COULOMBIC
+ RESIDUE    pKa    BURIED     REGULAR      RE        HYDROGEN BOND     HYDROGEN BOND      INTERACTION
+---------  -----   ------   ---------   ---------    --------------    --------------    --------------
+
+ASP   3 A   3.71     0 %    0.17  134   0.00    0    0.00 XXX   0 X   -0.13 ASP   3 A   -0.10 N+    1 A
+ASP   3 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+
+ASP  50 A   3.47     0 %    0.30  203   0.00    0   -0.25 SER  47 A    0.00 XXX   0 X   -0.01 LYS  46 A
+ASP  50 A                                           -0.10 ARG  53 A    0.00 XXX   0 X   -0.26 ARG  53 A
+
+GLU   7 A   4.06     1 %    0.58  284   0.01    0    0.00 XXX   0 X   -0.68 ASN  43 A   -0.14 LYS  41 A
+GLU   7 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.22 ARG  42 A
+
+GLU  49 A   3.96     0 %    0.22  170   0.00    0    0.00 XXX   0 X   -0.09 ALA  48 A   -0.08 ARG  53 A
+GLU  49 A                                            0.00 XXX   0 X   -0.69 GLU  49 A    0.10 ASP  50 A
+
+C-   58 A   3.23     0 %    0.10  131   0.00    0    0.00 XXX   0 X   -0.00 ALA  58 A   -0.07 ARG   1 A
+
+CYS   5 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  14 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  30 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  38 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  51 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  55 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+TYR  10 A  10.01     0 %    0.29  182   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.27 LYS  41 A
+
+TYR  21 A  10.34     0 %    0.23  230   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.10 GLU  49 A
+
+TYR  23 A  10.19     0 %    0.50  251   0.00    0   -0.08 ARG   1 A    0.00 XXX   0 X   -0.34 ARG   1 A
+TYR  23 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.11 C-   58 A
+
+TYR  35 A  10.25     0 %    0.63  237   0.00    0    0.00 XXX   0 X   -0.20 ALA  40 A   -0.18 ARG  20 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.00 ARG  39 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.02 TYR  10 A
+
+LYS  15 A  10.36     0 %   -0.14  113   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  26 A  10.45     0 %   -0.05   89   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  41 A  10.58     0 %   -0.29  200   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.14 GLU   7 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.01 ARG  39 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.27 TYR  10 A
+
+LYS  46 A  10.14     0 %   -0.11  190   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.26 ARG  20 A
+LYS  46 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.01 ASP  50 A
+
+ARG   1 A  12.74     0 %   -0.25  205   0.00    0    0.08 TYR  23 A    0.00 XXX   0 X    0.34 TYR  23 A
+ARG   1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.07 C-   58 A
+
+ARG  17 A  12.35     0 %   -0.15  138   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+ARG  20 A  12.14     2 %   -0.54  286   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.18 TYR  35 A
+
+ARG  39 A  12.39     0 %   -0.12   97   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 TYR  35 A
+
+ARG  42 A  12.49     0 %   -0.26  185   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.03 ASP   3 A
+ARG  42 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.22 GLU   7 A
+
+ARG  53 A  12.74     0 %   -0.20  143   0.00    0    0.10 ASP  50 A    0.00 XXX   0 X    0.08 GLU  49 A
+ARG  53 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.26 ASP  50 A
+
+N+    1 A   7.67     0 %   -0.20  173   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.24 ARG   1 A
+N+    1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.10 ASP   3 A
+
+
+2024-12-03 14:55:19,960 INFO:output.py:227:print_pka_section:pKa summary:
+--------------------------------------------------------------------------------------------------------
+SUMMARY OF THIS PREDICTION
+       Group      pKa  model-pKa   ligand atom-type
+   ASP   3 A     3.71       3.80                      
+   ASP  50 A     3.47       3.80                      
+   GLU   7 A     4.06       4.50                      
+   GLU  49 A     3.96       4.50                      
+   C-   58 A     3.23       3.20                      
+   CYS   5 A    99.99       9.00                      
+   CYS  14 A    99.99       9.00                      
+   CYS  30 A    99.99       9.00                      
+   CYS  38 A    99.99       9.00                      
+   CYS  51 A    99.99       9.00                      
+   CYS  55 A    99.99       9.00                      
+   TYR  10 A    10.01      10.00                      
+   TYR  21 A    10.34      10.00                      
+   TYR  23 A    10.19      10.00                      
+   TYR  35 A    10.25      10.00                      
+   LYS  15 A    10.36      10.50                      
+   LYS  26 A    10.45      10.50                      
+   LYS  41 A    10.58      10.50                      
+   LYS  46 A    10.14      10.50                      
+   ARG   1 A    12.74      12.50                      
+   ARG  17 A    12.35      12.50                      
+   ARG  20 A    12.14      12.50                      
+   ARG  39 A    12.39      12.50                      
+   ARG  42 A    12.49      12.50                      
+   ARG  53 A    12.74      12.50                      
+   N+    1 A     7.67       8.00                      
+
+2024-12-03 14:55:19,977 INFO:main.py:645:non_trivial:PROPKA information:
+--------------------------------------------------------------------------------------------------------
+Free energy of   folding (kcal/mol) as a function of pH (using neutral reference)
+  0.00      3.60
+  1.00      3.60
+  2.00      3.59
+  3.00      3.44
+  4.00      2.77
+  5.00      1.97
+  6.00      1.76
+  7.00      1.69
+  8.00      1.48
+  9.00      1.37
+ 10.00      1.56
+ 11.00      1.71
+ 12.00      1.62
+ 13.00      1.52
+ 14.00      1.54
+
+The pH of optimum stability is  8.9 for which the free energy is    1.4 kcal/mol at 298K
+Could not determine pH values where the free energy is within 80 % of minimum
+Could not determine the pH-range where the free energy is negative
+
+
+Protein charge of folded and unfolded state as a function of pH
+    pH  unfolded  folded
+  0.00     11.00   11.00
+  0.10     11.00   11.00
+  0.20     11.00   11.00
+  0.30     11.00   11.00
+  0.40     11.00   11.00
+  0.50     11.00   11.00
+  0.60     11.00   10.99
+  0.70     10.99   10.99
+  0.80     10.99   10.99
+  0.90     10.99   10.99
+  1.00     10.99   10.99
+  1.10     10.99   10.98
+  1.20     10.98   10.98
+  1.30     10.98   10.97
+  1.40     10.97   10.97
+  1.50     10.97   10.96
+  1.60     10.96   10.95
+  1.70     10.95   10.94
+  1.80     10.94   10.92
+  1.90     10.92   10.90
+  2.00     10.90   10.87
+  2.10     10.88   10.84
+  2.20     10.85   10.80
+  2.30     10.81   10.76
+  2.40     10.77   10.70
+  2.50     10.72   10.63
+  2.60     10.66   10.54
+  2.70     10.58   10.44
+  2.80     10.49   10.33
+  2.90     10.39   10.19
+  3.00     10.28   10.03
+  3.10     10.15    9.86
+  3.20     10.00    9.66
+  3.30      9.84    9.45
+  3.40      9.67    9.22
+  3.50      9.48    8.98
+  3.60      9.29    8.73
+  3.70      9.08    8.47
+  3.80      8.87    8.21
+  3.90      8.65    7.96
+  4.00      8.43    7.72
+  4.10      8.21    7.49
+  4.20      7.99    7.28
+  4.30      7.78    7.09
+  4.40      7.58    6.92
+  4.50      7.38    6.76
+  4.60      7.20    6.63
+  4.70      7.03    6.52
+  4.80      6.87    6.42
+  4.90      6.74    6.34
+  5.00      6.61    6.28
+  5.10      6.51    6.22
+  5.20      6.42    6.18
+  5.30      6.34    6.14
+  5.40      6.28    6.11
+  5.50      6.22    6.09
+  5.60      6.18    6.07
+  5.70      6.14    6.05
+  5.80      6.11    6.03
+  5.90      6.09    6.02
+  6.00      6.06    6.01
+  6.10      6.05    6.00
+  6.20      6.03    5.99
+  6.30      6.02    5.97
+  6.40      6.00    5.96
+  6.50      5.99    5.95
+  6.60      5.98    5.93
+  6.70      5.96    5.91
+  6.80      5.95    5.88
+  6.90      5.93    5.86
+  7.00      5.91    5.82
+  7.10      5.89    5.79
+  7.20      5.86    5.74
+  7.30      5.83    5.69
+  7.40      5.79    5.64
+  7.50      5.75    5.58
+  7.60      5.70    5.52
+  7.70      5.64    5.46
+  7.80      5.58    5.40
+  7.90      5.52    5.34
+  8.00      5.45    5.28
+  8.10      5.38    5.22
+  8.20      5.30    5.16
+  8.30      5.23    5.10
+  8.40      5.16    5.05
+  8.50      5.08    4.99
+  8.60      5.00    4.93
+  8.70      4.91    4.87
+  8.80      4.82    4.80
+  8.90      4.72    4.72
+  9.00      4.60    4.63
+  9.10      4.47    4.52
+  9.20      4.32    4.39
+  9.30      4.14    4.24
+  9.40      3.94    4.06
+  9.50      3.70    3.84
+  9.60      3.43    3.60
+  9.70      3.13    3.31
+  9.80      2.79    2.99
+  9.90      2.42    2.63
+ 10.00      2.03    2.24
+ 10.10      1.62    1.82
+ 10.20      1.19    1.37
+ 10.30      0.76    0.92
+ 10.40      0.32    0.47
+ 10.50     -0.10    0.02
+ 10.60     -0.50   -0.41
+ 10.70     -0.88   -0.81
+ 10.80     -1.23   -1.19
+ 10.90     -1.56   -1.53
+ 11.00     -1.86   -1.85
+ 11.10     -2.13   -2.14
+ 11.20     -2.38   -2.41
+ 11.30     -2.62   -2.66
+ 11.40     -2.84   -2.90
+ 11.50     -3.06   -3.13
+ 11.60     -3.28   -3.36
+ 11.70     -3.50   -3.60
+ 11.80     -3.74   -3.86
+ 11.90     -4.00   -4.12
+ 12.00     -4.28   -4.41
+ 12.10     -4.58   -4.71
+ 12.20     -4.90   -5.02
+ 12.30     -5.24   -5.35
+ 12.40     -5.59   -5.69
+ 12.50     -5.95   -6.03
+ 12.60     -6.30   -6.36
+ 12.70     -6.65   -6.69
+ 12.80     -6.97   -6.99
+ 12.90     -7.27   -7.28
+ 13.00     -7.54   -7.54
+ 13.10     -7.78   -7.77
+ 13.20     -7.99   -7.98
+ 13.30     -8.17   -8.15
+ 13.40     -8.32   -8.30
+ 13.50     -8.45   -8.43
+ 13.60     -8.55   -8.54
+ 13.70     -8.64   -8.63
+ 13.80     -8.71   -8.70
+ 13.90     -8.77   -8.76
+ 14.00     -8.81   -8.81
+The pI is 10.51 (folded) and 10.48 (unfolded)
+
+--------------------------------------------------------------------------------------------------------
+2024-12-03 14:55:19,977 INFO:biomolecule.py:794:apply_pka_values:Applying pKa values at a pH of 7.00:
+2024-12-03 14:55:19,978 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2024-12-03 14:55:20,060 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2024-12-03 14:55:20,061 INFO:__init__.py:370:initialize_wat_optimization:Initializing water bonding optimization...
+2024-12-03 14:55:20,083 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2024-12-03 14:55:20,085 INFO:main.py:722:non_trivial:Regenerating headers.
+2024-12-03 14:55:20,086 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2024-12-03 14:55:20,102 WARNING:main.py:320:print_pqr:Ignoring 1264 header lines in output.
+2024-12-03 14:55:20,103 WARNING:main.py:324:print_pqr:Ignoring 14 missing lines in output.
+2024-12-03 16:11:37,478 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2024-12-03 16:11:37,987 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-12-03 16:11:37,988 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-12-03 16:11:37,989 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2024-12-03 16:11:37,990 INFO:main.py:772:main_driver:Loading topology files.
+2024-12-03 16:11:38,062 INFO:main.py:774:main_driver:Loading molecule: 9PTI
+2024-12-03 16:11:38,449 INFO:main.py:777:main_driver:Dropping water from structure.
+2024-12-03 16:11:38,451 INFO:main.py:779:main_driver:Setting up molecule.
+2024-12-03 16:11:38,455 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for MHO.  Parsing as new residue.
+2024-12-03 16:11:38,455 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for PO4.  Parsing as new residue.
+2024-12-03 16:11:38,456 INFO:main.py:417:setup_molecule:Created biomolecule object with 59 residues and 460 atoms.
+2024-12-03 16:11:38,456 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 3.
+2024-12-03 16:11:38,457 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 3.
+2024-12-03 16:11:38,457 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 3.
+2024-12-03 16:11:38,457 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 3. At least one of the instances is being ignored.
+2024-12-03 16:11:38,457 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 7.
+2024-12-03 16:11:38,457 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 7.
+2024-12-03 16:11:38,457 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 7.
+2024-12-03 16:11:38,457 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 7.
+2024-12-03 16:11:38,458 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 7. At least one of the instances is being ignored.
+2024-12-03 16:11:38,458 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 39.
+2024-12-03 16:11:38,458 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 39.
+2024-12-03 16:11:38,458 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 39.
+2024-12-03 16:11:38,458 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 39.
+2024-12-03 16:11:38,458 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 39.
+2024-12-03 16:11:38,459 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 39.
+2024-12-03 16:11:38,459 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 39. At least one of the instances is being ignored.
+2024-12-03 16:11:38,459 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 42.
+2024-12-03 16:11:38,459 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 42.
+2024-12-03 16:11:38,460 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 42.
+2024-12-03 16:11:38,460 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 42.
+2024-12-03 16:11:38,460 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 42.
+2024-12-03 16:11:38,460 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 42.
+2024-12-03 16:11:38,461 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 42. At least one of the instances is being ignored.
+2024-12-03 16:11:38,461 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 49.
+2024-12-03 16:11:38,461 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 49.
+2024-12-03 16:11:38,461 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 49.
+2024-12-03 16:11:38,462 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 49.
+2024-12-03 16:11:38,462 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 49. At least one of the instances is being ignored.
+2024-12-03 16:11:38,462 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 50.
+2024-12-03 16:11:38,463 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 50.
+2024-12-03 16:11:38,463 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 50.
+2024-12-03 16:11:38,463 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 50. At least one of the instances is being ignored.
+2024-12-03 16:11:38,464 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 53.
+2024-12-03 16:11:38,464 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 53.
+2024-12-03 16:11:38,464 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 53.
+2024-12-03 16:11:38,464 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 53.
+2024-12-03 16:11:38,465 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 53.
+2024-12-03 16:11:38,465 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 53.
+2024-12-03 16:11:38,465 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 53. At least one of the instances is being ignored.
+2024-12-03 16:11:38,465 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in GLY A 57.
+2024-12-03 16:11:38,465 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in GLY A 57.
+2024-12-03 16:11:38,466 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in GLY A 57.
+2024-12-03 16:11:38,466 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in GLY A 57.
+2024-12-03 16:11:38,466 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLY A 57. At least one of the instances is being ignored.
+2024-12-03 16:11:38,467 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in ALA A 58.
+2024-12-03 16:11:38,467 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in ALA A 58.
+2024-12-03 16:11:38,467 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in ALA A 58.
+2024-12-03 16:11:38,467 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in ALA A 58.
+2024-12-03 16:11:38,468 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in ALA A 58.
+2024-12-03 16:11:38,468 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OXT in ALA A 58.
+2024-12-03 16:11:38,468 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ALA A 58. At least one of the instances is being ignored.
+2024-12-03 16:11:38,468 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2024-12-03 16:11:38,471 INFO:main.py:613:non_trivial:Loading forcefield.
+2024-12-03 16:11:38,486 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2024-12-03 16:11:38,488 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
+2024-12-03 16:11:38,489 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2024-12-03 16:11:38,490 INFO:main.py:642:non_trivial:Assigning titration states with PROPKA.
+2024-12-03 16:11:38,496 INFO:output.py:74:print_header:
+propka3.5.1                                                                                  2024-12-03
+
+-------------------------------------------------------------------------------
+--                                                                           --
+--  PROPKA: A PROTEIN PKA PREDICTOR                                          --
+--                                                                           --
+--  VERSION 1.0,  04/25/2004,  IOWA CITY                                     --
+--  BY HUI LI                                                                --
+--                                                                           --
+--  VERSION 2.0,  11/05/2007, IOWA CITY/COPENHAGEN                           --
+--  BY DELPHINE C. BAS AND DAVID M. ROGERS                                   --
+--                                                                           --
+--  VERSION 3.0,  01/06/2011, COPENHAGEN                                     --
+--  BY MATS H.M. OLSSON AND CHRESTEN R. SONDERGARD                           --
+--                                                                           --
+--  VERSION 3.1,  07/01/2011, COPENHAGEN                                     --
+--  BY CHRESTEN R. SONDERGARD AND MATS H.M. OLSSON                           --
+--                                                                           --
+--  VERSION 3.2,  06/17/2020, PLANET EARTH                                   --
+--  SEE ABOVE FOR AUTHORS                                                    --
+--                                                                           --
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+References:
+
+Very Fast Empirical Prediction and Rationalization of Protein pKa Values.
+Hui Li, Andrew D. Robertson and Jan H. Jensen. PROTEINS: Structure, Function,
+and Bioinformatics. 61:704-721 (2005)
+
+Very Fast Prediction and Rationalization of pKa Values for Protein-Ligand
+Complexes.  Delphine C. Bas, David M. Rogers and Jan H. Jensen.  PROTEINS:
+Structure, Function, and Bioinformatics 73:765-783 (2008)
+
+PROPKA3: Consistent Treatment of Internal and Surface Residues in Empirical
+pKa predictions.  Mats H.M. Olsson, Chresten R. Sondergard, Michal Rostkowski,
+and Jan H. Jensen.  Journal of Chemical Theory and Computation, 7(2):525-537
+(2011)
+
+Improved Treatment of Ligands and Coupling Effects in Empirical Calculation
+and Rationalization of pKa Values.  Chresten R. Sondergaard, Mats H.M. Olsson,
+Michal Rostkowski, and Jan H. Jensen.  Journal of Chemical Theory and
+Computation, (2011)
+-------------------------------------------------------------------------------
+
+
+
+2024-12-03 16:11:38,540 INFO:group.py:883:__init__:Found NAM group:   409-   N    52-MHO (A) [  24.450   16.561   -4.096] N
+2024-12-03 16:11:38,541 INFO:group.py:977:__init__:Found O2  group:   416-   O    52-MHO (A) [  25.319   17.632   -7.391] O
+2024-12-03 16:11:38,542 INFO:group.py:923:__init__:Found OH  group:   417- OD1    52-MHO (A) [  20.864   13.789   -6.146] O
+2024-12-03 16:11:38,545 INFO:conformation_container.py:124:find_covalently_coupled_groups:Coupling map:
+
+2024-12-03 16:11:38,545 INFO:conformation_container.py:213:calculate_pka:Calculating pKas for Conformation container 1A with 555 atoms and 145 groups
+2024-12-03 16:11:38,579 INFO:output.py:225:print_pka_section:pKa determinants:
+
+---------  -----   ------   ---------------------    --------------    --------------    --------------
+                            DESOLVATION  EFFECTS       SIDECHAIN          BACKBONE        COULOMBIC
+ RESIDUE    pKa    BURIED     REGULAR      RE        HYDROGEN BOND     HYDROGEN BOND      INTERACTION
+---------  -----   ------   ---------   ---------    --------------    --------------    --------------
+
+ASP   3 A   3.71     0 %    0.17  134   0.00    0    0.00 XXX   0 X   -0.13 ASP   3 A   -0.10 N+    1 A
+ASP   3 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+
+ASP  50 A   3.47     0 %    0.30  203   0.00    0   -0.25 SER  47 A    0.00 XXX   0 X   -0.01 LYS  46 A
+ASP  50 A                                           -0.10 ARG  53 A    0.00 XXX   0 X   -0.26 ARG  53 A
+
+GLU   7 A   4.06     1 %    0.58  284   0.01    0    0.00 XXX   0 X   -0.68 ASN  43 A   -0.14 LYS  41 A
+GLU   7 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.22 ARG  42 A
+
+GLU  49 A   3.96     0 %    0.22  170   0.00    0    0.00 XXX   0 X   -0.09 ALA  48 A   -0.08 ARG  53 A
+GLU  49 A                                            0.00 XXX   0 X   -0.69 GLU  49 A    0.10 ASP  50 A
+
+C-   58 A   3.23     0 %    0.10  131   0.00    0    0.00 XXX   0 X   -0.00 ALA  58 A   -0.07 ARG   1 A
+
+CYS   5 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  14 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  30 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  38 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  51 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  55 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+TYR  10 A  10.01     0 %    0.29  182   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.27 LYS  41 A
+
+TYR  21 A  10.34     0 %    0.23  230   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.10 GLU  49 A
+
+TYR  23 A  10.19     0 %    0.50  251   0.00    0   -0.08 ARG   1 A    0.00 XXX   0 X   -0.34 ARG   1 A
+TYR  23 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.11 C-   58 A
+
+TYR  35 A  10.25     0 %    0.63  237   0.00    0    0.00 XXX   0 X   -0.20 ALA  40 A   -0.18 ARG  20 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.00 ARG  39 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.02 TYR  10 A
+
+LYS  15 A  10.36     0 %   -0.14  113   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  26 A  10.45     0 %   -0.05   89   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  41 A  10.58     0 %   -0.29  200   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.14 GLU   7 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.01 ARG  39 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.27 TYR  10 A
+
+LYS  46 A  10.14     0 %   -0.11  190   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.26 ARG  20 A
+LYS  46 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.01 ASP  50 A
+
+ARG   1 A  12.74     0 %   -0.25  205   0.00    0    0.08 TYR  23 A    0.00 XXX   0 X    0.34 TYR  23 A
+ARG   1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.07 C-   58 A
+
+ARG  17 A  12.35     0 %   -0.15  138   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+ARG  20 A  12.14     2 %   -0.54  286   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.18 TYR  35 A
+
+ARG  39 A  12.39     0 %   -0.12   97   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 TYR  35 A
+
+ARG  42 A  12.49     0 %   -0.26  185   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.03 ASP   3 A
+ARG  42 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.22 GLU   7 A
+
+ARG  53 A  12.74     0 %   -0.20  143   0.00    0    0.10 ASP  50 A    0.00 XXX   0 X    0.08 GLU  49 A
+ARG  53 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.26 ASP  50 A
+
+N+    1 A   7.67     0 %   -0.20  173   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.24 ARG   1 A
+N+    1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.10 ASP   3 A
+
+
+2024-12-03 16:11:38,580 INFO:output.py:227:print_pka_section:pKa summary:
+--------------------------------------------------------------------------------------------------------
+SUMMARY OF THIS PREDICTION
+       Group      pKa  model-pKa   ligand atom-type
+   ASP   3 A     3.71       3.80                      
+   ASP  50 A     3.47       3.80                      
+   GLU   7 A     4.06       4.50                      
+   GLU  49 A     3.96       4.50                      
+   C-   58 A     3.23       3.20                      
+   CYS   5 A    99.99       9.00                      
+   CYS  14 A    99.99       9.00                      
+   CYS  30 A    99.99       9.00                      
+   CYS  38 A    99.99       9.00                      
+   CYS  51 A    99.99       9.00                      
+   CYS  55 A    99.99       9.00                      
+   TYR  10 A    10.01      10.00                      
+   TYR  21 A    10.34      10.00                      
+   TYR  23 A    10.19      10.00                      
+   TYR  35 A    10.25      10.00                      
+   LYS  15 A    10.36      10.50                      
+   LYS  26 A    10.45      10.50                      
+   LYS  41 A    10.58      10.50                      
+   LYS  46 A    10.14      10.50                      
+   ARG   1 A    12.74      12.50                      
+   ARG  17 A    12.35      12.50                      
+   ARG  20 A    12.14      12.50                      
+   ARG  39 A    12.39      12.50                      
+   ARG  42 A    12.49      12.50                      
+   ARG  53 A    12.74      12.50                      
+   N+    1 A     7.67       8.00                      
+
+2024-12-03 16:11:38,590 INFO:main.py:645:non_trivial:PROPKA information:
+--------------------------------------------------------------------------------------------------------
+Free energy of   folding (kcal/mol) as a function of pH (using neutral reference)
+  0.00      3.60
+  1.00      3.60
+  2.00      3.59
+  3.00      3.44
+  4.00      2.77
+  5.00      1.97
+  6.00      1.76
+  7.00      1.69
+  8.00      1.48
+  9.00      1.37
+ 10.00      1.56
+ 11.00      1.71
+ 12.00      1.62
+ 13.00      1.52
+ 14.00      1.54
+
+The pH of optimum stability is  8.9 for which the free energy is    1.4 kcal/mol at 298K
+Could not determine pH values where the free energy is within 80 % of minimum
+Could not determine the pH-range where the free energy is negative
+
+
+Protein charge of folded and unfolded state as a function of pH
+    pH  unfolded  folded
+  0.00     11.00   11.00
+  0.10     11.00   11.00
+  0.20     11.00   11.00
+  0.30     11.00   11.00
+  0.40     11.00   11.00
+  0.50     11.00   11.00
+  0.60     11.00   10.99
+  0.70     10.99   10.99
+  0.80     10.99   10.99
+  0.90     10.99   10.99
+  1.00     10.99   10.99
+  1.10     10.99   10.98
+  1.20     10.98   10.98
+  1.30     10.98   10.97
+  1.40     10.97   10.97
+  1.50     10.97   10.96
+  1.60     10.96   10.95
+  1.70     10.95   10.94
+  1.80     10.94   10.92
+  1.90     10.92   10.90
+  2.00     10.90   10.87
+  2.10     10.88   10.84
+  2.20     10.85   10.80
+  2.30     10.81   10.76
+  2.40     10.77   10.70
+  2.50     10.72   10.63
+  2.60     10.66   10.54
+  2.70     10.58   10.44
+  2.80     10.49   10.33
+  2.90     10.39   10.19
+  3.00     10.28   10.03
+  3.10     10.15    9.86
+  3.20     10.00    9.66
+  3.30      9.84    9.45
+  3.40      9.67    9.22
+  3.50      9.48    8.98
+  3.60      9.29    8.73
+  3.70      9.08    8.47
+  3.80      8.87    8.21
+  3.90      8.65    7.96
+  4.00      8.43    7.72
+  4.10      8.21    7.49
+  4.20      7.99    7.28
+  4.30      7.78    7.09
+  4.40      7.58    6.92
+  4.50      7.38    6.76
+  4.60      7.20    6.63
+  4.70      7.03    6.52
+  4.80      6.87    6.42
+  4.90      6.74    6.34
+  5.00      6.61    6.28
+  5.10      6.51    6.22
+  5.20      6.42    6.18
+  5.30      6.34    6.14
+  5.40      6.28    6.11
+  5.50      6.22    6.09
+  5.60      6.18    6.07
+  5.70      6.14    6.05
+  5.80      6.11    6.03
+  5.90      6.09    6.02
+  6.00      6.06    6.01
+  6.10      6.05    6.00
+  6.20      6.03    5.99
+  6.30      6.02    5.97
+  6.40      6.00    5.96
+  6.50      5.99    5.95
+  6.60      5.98    5.93
+  6.70      5.96    5.91
+  6.80      5.95    5.88
+  6.90      5.93    5.86
+  7.00      5.91    5.82
+  7.10      5.89    5.79
+  7.20      5.86    5.74
+  7.30      5.83    5.69
+  7.40      5.79    5.64
+  7.50      5.75    5.58
+  7.60      5.70    5.52
+  7.70      5.64    5.46
+  7.80      5.58    5.40
+  7.90      5.52    5.34
+  8.00      5.45    5.28
+  8.10      5.38    5.22
+  8.20      5.30    5.16
+  8.30      5.23    5.10
+  8.40      5.16    5.05
+  8.50      5.08    4.99
+  8.60      5.00    4.93
+  8.70      4.91    4.87
+  8.80      4.82    4.80
+  8.90      4.72    4.72
+  9.00      4.60    4.63
+  9.10      4.47    4.52
+  9.20      4.32    4.39
+  9.30      4.14    4.24
+  9.40      3.94    4.06
+  9.50      3.70    3.84
+  9.60      3.43    3.60
+  9.70      3.13    3.31
+  9.80      2.79    2.99
+  9.90      2.42    2.63
+ 10.00      2.03    2.24
+ 10.10      1.62    1.82
+ 10.20      1.19    1.37
+ 10.30      0.76    0.92
+ 10.40      0.32    0.47
+ 10.50     -0.10    0.02
+ 10.60     -0.50   -0.41
+ 10.70     -0.88   -0.81
+ 10.80     -1.23   -1.19
+ 10.90     -1.56   -1.53
+ 11.00     -1.86   -1.85
+ 11.10     -2.13   -2.14
+ 11.20     -2.38   -2.41
+ 11.30     -2.62   -2.66
+ 11.40     -2.84   -2.90
+ 11.50     -3.06   -3.13
+ 11.60     -3.28   -3.36
+ 11.70     -3.50   -3.60
+ 11.80     -3.74   -3.86
+ 11.90     -4.00   -4.12
+ 12.00     -4.28   -4.41
+ 12.10     -4.58   -4.71
+ 12.20     -4.90   -5.02
+ 12.30     -5.24   -5.35
+ 12.40     -5.59   -5.69
+ 12.50     -5.95   -6.03
+ 12.60     -6.30   -6.36
+ 12.70     -6.65   -6.69
+ 12.80     -6.97   -6.99
+ 12.90     -7.27   -7.28
+ 13.00     -7.54   -7.54
+ 13.10     -7.78   -7.77
+ 13.20     -7.99   -7.98
+ 13.30     -8.17   -8.15
+ 13.40     -8.32   -8.30
+ 13.50     -8.45   -8.43
+ 13.60     -8.55   -8.54
+ 13.70     -8.64   -8.63
+ 13.80     -8.71   -8.70
+ 13.90     -8.77   -8.76
+ 14.00     -8.81   -8.81
+The pI is 10.51 (folded) and 10.48 (unfolded)
+
+--------------------------------------------------------------------------------------------------------
+2024-12-03 16:11:38,590 INFO:biomolecule.py:794:apply_pka_values:Applying pKa values at a pH of 7.00:
+2024-12-03 16:11:38,591 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2024-12-03 16:11:38,674 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2024-12-03 16:11:38,674 INFO:__init__.py:370:initialize_wat_optimization:Initializing water bonding optimization...
+2024-12-03 16:11:38,697 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2024-12-03 16:11:38,699 INFO:main.py:722:non_trivial:Regenerating headers.
+2024-12-03 16:11:38,699 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2024-12-03 16:11:39,194 WARNING:main.py:320:print_pqr:Ignoring 1264 header lines in output.
+2024-12-03 16:11:39,194 WARNING:main.py:324:print_pqr:Ignoring 14 missing lines in output.
+2024-12-03 16:11:54,019 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2024-12-03 16:11:54,021 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-12-03 16:11:54,021 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-12-03 16:11:54,021 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2024-12-03 16:11:54,021 INFO:main.py:772:main_driver:Loading topology files.
+2024-12-03 16:11:54,139 INFO:main.py:774:main_driver:Loading molecule: 9PTI
+2024-12-03 16:11:54,576 INFO:main.py:777:main_driver:Dropping water from structure.
+2024-12-03 16:11:54,578 INFO:main.py:779:main_driver:Setting up molecule.
+2024-12-03 16:11:54,585 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for MHO.  Parsing as new residue.
+2024-12-03 16:11:54,586 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for PO4.  Parsing as new residue.
+2024-12-03 16:11:54,587 INFO:main.py:417:setup_molecule:Created biomolecule object with 59 residues and 460 atoms.
+2024-12-03 16:11:54,587 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 3.
+2024-12-03 16:11:54,587 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 3.
+2024-12-03 16:11:54,587 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 3.
+2024-12-03 16:11:54,587 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 3. At least one of the instances is being ignored.
+2024-12-03 16:11:54,587 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 7.
+2024-12-03 16:11:54,588 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 7.
+2024-12-03 16:11:54,588 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 7.
+2024-12-03 16:11:54,588 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 7.
+2024-12-03 16:11:54,588 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 7. At least one of the instances is being ignored.
+2024-12-03 16:11:54,588 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 39.
+2024-12-03 16:11:54,589 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 39.
+2024-12-03 16:11:54,589 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 39.
+2024-12-03 16:11:54,589 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 39.
+2024-12-03 16:11:54,589 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 39.
+2024-12-03 16:11:54,589 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 39.
+2024-12-03 16:11:54,589 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 39. At least one of the instances is being ignored.
+2024-12-03 16:11:54,590 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 42.
+2024-12-03 16:11:54,590 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 42.
+2024-12-03 16:11:54,590 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 42.
+2024-12-03 16:11:54,590 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 42.
+2024-12-03 16:11:54,590 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 42.
+2024-12-03 16:11:54,590 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 42.
+2024-12-03 16:11:54,590 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 42. At least one of the instances is being ignored.
+2024-12-03 16:11:54,591 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLU A 49.
+2024-12-03 16:11:54,591 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLU A 49.
+2024-12-03 16:11:54,591 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLU A 49.
+2024-12-03 16:11:54,591 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE2 in GLU A 49.
+2024-12-03 16:11:54,591 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLU A 49. At least one of the instances is being ignored.
+2024-12-03 16:11:54,591 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASP A 50.
+2024-12-03 16:11:54,591 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASP A 50.
+2024-12-03 16:11:54,591 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD2 in ASP A 50.
+2024-12-03 16:11:54,592 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASP A 50. At least one of the instances is being ignored.
+2024-12-03 16:11:54,592 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ARG A 53.
+2024-12-03 16:11:54,592 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in ARG A 53.
+2024-12-03 16:11:54,592 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE in ARG A 53.
+2024-12-03 16:11:54,592 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ in ARG A 53.
+2024-12-03 16:11:54,592 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH1 in ARG A 53.
+2024-12-03 16:11:54,592 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NH2 in ARG A 53.
+2024-12-03 16:11:54,593 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ARG A 53. At least one of the instances is being ignored.
+2024-12-03 16:11:54,593 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in GLY A 57.
+2024-12-03 16:11:54,593 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in GLY A 57.
+2024-12-03 16:11:54,593 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in GLY A 57.
+2024-12-03 16:11:54,593 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in GLY A 57.
+2024-12-03 16:11:54,593 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLY A 57. At least one of the instances is being ignored.
+2024-12-03 16:11:54,593 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in ALA A 58.
+2024-12-03 16:11:54,594 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in ALA A 58.
+2024-12-03 16:11:54,594 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in ALA A 58.
+2024-12-03 16:11:54,594 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in ALA A 58.
+2024-12-03 16:11:54,594 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in ALA A 58.
+2024-12-03 16:11:54,594 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OXT in ALA A 58.
+2024-12-03 16:11:54,594 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ALA A 58. At least one of the instances is being ignored.
+2024-12-03 16:11:54,594 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2024-12-03 16:11:54,600 INFO:main.py:613:non_trivial:Loading forcefield.
+2024-12-03 16:11:54,627 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2024-12-03 16:11:54,629 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
+2024-12-03 16:11:54,629 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2024-12-03 16:11:54,632 INFO:main.py:642:non_trivial:Assigning titration states with PROPKA.
+2024-12-03 16:11:54,645 INFO:output.py:74:print_header:
+propka3.5.1                                                                                  2024-12-03
+
+-------------------------------------------------------------------------------
+--                                                                           --
+--  PROPKA: A PROTEIN PKA PREDICTOR                                          --
+--                                                                           --
+--  VERSION 1.0,  04/25/2004,  IOWA CITY                                     --
+--  BY HUI LI                                                                --
+--                                                                           --
+--  VERSION 2.0,  11/05/2007, IOWA CITY/COPENHAGEN                           --
+--  BY DELPHINE C. BAS AND DAVID M. ROGERS                                   --
+--                                                                           --
+--  VERSION 3.0,  01/06/2011, COPENHAGEN                                     --
+--  BY MATS H.M. OLSSON AND CHRESTEN R. SONDERGARD                           --
+--                                                                           --
+--  VERSION 3.1,  07/01/2011, COPENHAGEN                                     --
+--  BY CHRESTEN R. SONDERGARD AND MATS H.M. OLSSON                           --
+--                                                                           --
+--  VERSION 3.2,  06/17/2020, PLANET EARTH                                   --
+--  SEE ABOVE FOR AUTHORS                                                    --
+--                                                                           --
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+References:
+
+Very Fast Empirical Prediction and Rationalization of Protein pKa Values.
+Hui Li, Andrew D. Robertson and Jan H. Jensen. PROTEINS: Structure, Function,
+and Bioinformatics. 61:704-721 (2005)
+
+Very Fast Prediction and Rationalization of pKa Values for Protein-Ligand
+Complexes.  Delphine C. Bas, David M. Rogers and Jan H. Jensen.  PROTEINS:
+Structure, Function, and Bioinformatics 73:765-783 (2008)
+
+PROPKA3: Consistent Treatment of Internal and Surface Residues in Empirical
+pKa predictions.  Mats H.M. Olsson, Chresten R. Sondergard, Michal Rostkowski,
+and Jan H. Jensen.  Journal of Chemical Theory and Computation, 7(2):525-537
+(2011)
+
+Improved Treatment of Ligands and Coupling Effects in Empirical Calculation
+and Rationalization of pKa Values.  Chresten R. Sondergaard, Mats H.M. Olsson,
+Michal Rostkowski, and Jan H. Jensen.  Journal of Chemical Theory and
+Computation, (2011)
+-------------------------------------------------------------------------------
+
+
+
+2024-12-03 16:11:54,718 INFO:group.py:883:__init__:Found NAM group:   409-   N    52-MHO (A) [  24.450   16.561   -4.096] N
+2024-12-03 16:11:54,720 INFO:group.py:977:__init__:Found O2  group:   416-   O    52-MHO (A) [  25.319   17.632   -7.391] O
+2024-12-03 16:11:54,721 INFO:group.py:923:__init__:Found OH  group:   417- OD1    52-MHO (A) [  20.864   13.789   -6.146] O
+2024-12-03 16:11:54,725 INFO:conformation_container.py:124:find_covalently_coupled_groups:Coupling map:
+
+2024-12-03 16:11:54,725 INFO:conformation_container.py:213:calculate_pka:Calculating pKas for Conformation container 1A with 555 atoms and 145 groups
+2024-12-03 16:11:54,785 INFO:output.py:225:print_pka_section:pKa determinants:
+
+---------  -----   ------   ---------------------    --------------    --------------    --------------
+                            DESOLVATION  EFFECTS       SIDECHAIN          BACKBONE        COULOMBIC
+ RESIDUE    pKa    BURIED     REGULAR      RE        HYDROGEN BOND     HYDROGEN BOND      INTERACTION
+---------  -----   ------   ---------   ---------    --------------    --------------    --------------
+
+ASP   3 A   3.71     0 %    0.17  134   0.00    0    0.00 XXX   0 X   -0.13 ASP   3 A   -0.10 N+    1 A
+ASP   3 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+
+ASP  50 A   3.47     0 %    0.30  203   0.00    0   -0.25 SER  47 A    0.00 XXX   0 X   -0.01 LYS  46 A
+ASP  50 A                                           -0.10 ARG  53 A    0.00 XXX   0 X   -0.26 ARG  53 A
+
+GLU   7 A   4.06     1 %    0.58  284   0.01    0    0.00 XXX   0 X   -0.68 ASN  43 A   -0.14 LYS  41 A
+GLU   7 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.22 ARG  42 A
+
+GLU  49 A   3.96     0 %    0.22  170   0.00    0    0.00 XXX   0 X   -0.09 ALA  48 A   -0.08 ARG  53 A
+GLU  49 A                                            0.00 XXX   0 X   -0.69 GLU  49 A    0.10 ASP  50 A
+
+C-   58 A   3.23     0 %    0.10  131   0.00    0    0.00 XXX   0 X   -0.00 ALA  58 A   -0.07 ARG   1 A
+
+CYS   5 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  14 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  30 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  38 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  51 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS  55 A  99.99     0 %    0.00    0   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+TYR  10 A  10.01     0 %    0.29  182   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.27 LYS  41 A
+
+TYR  21 A  10.34     0 %    0.23  230   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.10 GLU  49 A
+
+TYR  23 A  10.19     0 %    0.50  251   0.00    0   -0.08 ARG   1 A    0.00 XXX   0 X   -0.34 ARG   1 A
+TYR  23 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.11 C-   58 A
+
+TYR  35 A  10.25     0 %    0.63  237   0.00    0    0.00 XXX   0 X   -0.20 ALA  40 A   -0.18 ARG  20 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.00 ARG  39 A
+TYR  35 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.02 TYR  10 A
+
+LYS  15 A  10.36     0 %   -0.14  113   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  26 A  10.45     0 %   -0.05   89   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  41 A  10.58     0 %   -0.29  200   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.14 GLU   7 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.01 ARG  39 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 ARG  42 A
+LYS  41 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.27 TYR  10 A
+
+LYS  46 A  10.14     0 %   -0.11  190   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.26 ARG  20 A
+LYS  46 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.01 ASP  50 A
+
+ARG   1 A  12.74     0 %   -0.25  205   0.00    0    0.08 TYR  23 A    0.00 XXX   0 X    0.34 TYR  23 A
+ARG   1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.07 C-   58 A
+
+ARG  17 A  12.35     0 %   -0.15  138   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+ARG  20 A  12.14     2 %   -0.54  286   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.18 TYR  35 A
+
+ARG  39 A  12.39     0 %   -0.12   97   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 TYR  35 A
+
+ARG  42 A  12.49     0 %   -0.26  185   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.03 ASP   3 A
+ARG  42 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.22 GLU   7 A
+
+ARG  53 A  12.74     0 %   -0.20  143   0.00    0    0.10 ASP  50 A    0.00 XXX   0 X    0.08 GLU  49 A
+ARG  53 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.26 ASP  50 A
+
+N+    1 A   7.67     0 %   -0.20  173   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.24 ARG   1 A
+N+    1 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.10 ASP   3 A
+
+
+2024-12-03 16:11:54,786 INFO:output.py:227:print_pka_section:pKa summary:
+--------------------------------------------------------------------------------------------------------
+SUMMARY OF THIS PREDICTION
+       Group      pKa  model-pKa   ligand atom-type
+   ASP   3 A     3.71       3.80                      
+   ASP  50 A     3.47       3.80                      
+   GLU   7 A     4.06       4.50                      
+   GLU  49 A     3.96       4.50                      
+   C-   58 A     3.23       3.20                      
+   CYS   5 A    99.99       9.00                      
+   CYS  14 A    99.99       9.00                      
+   CYS  30 A    99.99       9.00                      
+   CYS  38 A    99.99       9.00                      
+   CYS  51 A    99.99       9.00                      
+   CYS  55 A    99.99       9.00                      
+   TYR  10 A    10.01      10.00                      
+   TYR  21 A    10.34      10.00                      
+   TYR  23 A    10.19      10.00                      
+   TYR  35 A    10.25      10.00                      
+   LYS  15 A    10.36      10.50                      
+   LYS  26 A    10.45      10.50                      
+   LYS  41 A    10.58      10.50                      
+   LYS  46 A    10.14      10.50                      
+   ARG   1 A    12.74      12.50                      
+   ARG  17 A    12.35      12.50                      
+   ARG  20 A    12.14      12.50                      
+   ARG  39 A    12.39      12.50                      
+   ARG  42 A    12.49      12.50                      
+   ARG  53 A    12.74      12.50                      
+   N+    1 A     7.67       8.00                      
+
+2024-12-03 16:11:54,803 INFO:main.py:645:non_trivial:PROPKA information:
+--------------------------------------------------------------------------------------------------------
+Free energy of   folding (kcal/mol) as a function of pH (using neutral reference)
+  0.00      3.60
+  1.00      3.60
+  2.00      3.59
+  3.00      3.44
+  4.00      2.77
+  5.00      1.97
+  6.00      1.76
+  7.00      1.69
+  8.00      1.48
+  9.00      1.37
+ 10.00      1.56
+ 11.00      1.71
+ 12.00      1.62
+ 13.00      1.52
+ 14.00      1.54
+
+The pH of optimum stability is  8.9 for which the free energy is    1.4 kcal/mol at 298K
+Could not determine pH values where the free energy is within 80 % of minimum
+Could not determine the pH-range where the free energy is negative
+
+
+Protein charge of folded and unfolded state as a function of pH
+    pH  unfolded  folded
+  0.00     11.00   11.00
+  0.10     11.00   11.00
+  0.20     11.00   11.00
+  0.30     11.00   11.00
+  0.40     11.00   11.00
+  0.50     11.00   11.00
+  0.60     11.00   10.99
+  0.70     10.99   10.99
+  0.80     10.99   10.99
+  0.90     10.99   10.99
+  1.00     10.99   10.99
+  1.10     10.99   10.98
+  1.20     10.98   10.98
+  1.30     10.98   10.97
+  1.40     10.97   10.97
+  1.50     10.97   10.96
+  1.60     10.96   10.95
+  1.70     10.95   10.94
+  1.80     10.94   10.92
+  1.90     10.92   10.90
+  2.00     10.90   10.87
+  2.10     10.88   10.84
+  2.20     10.85   10.80
+  2.30     10.81   10.76
+  2.40     10.77   10.70
+  2.50     10.72   10.63
+  2.60     10.66   10.54
+  2.70     10.58   10.44
+  2.80     10.49   10.33
+  2.90     10.39   10.19
+  3.00     10.28   10.03
+  3.10     10.15    9.86
+  3.20     10.00    9.66
+  3.30      9.84    9.45
+  3.40      9.67    9.22
+  3.50      9.48    8.98
+  3.60      9.29    8.73
+  3.70      9.08    8.47
+  3.80      8.87    8.21
+  3.90      8.65    7.96
+  4.00      8.43    7.72
+  4.10      8.21    7.49
+  4.20      7.99    7.28
+  4.30      7.78    7.09
+  4.40      7.58    6.92
+  4.50      7.38    6.76
+  4.60      7.20    6.63
+  4.70      7.03    6.52
+  4.80      6.87    6.42
+  4.90      6.74    6.34
+  5.00      6.61    6.28
+  5.10      6.51    6.22
+  5.20      6.42    6.18
+  5.30      6.34    6.14
+  5.40      6.28    6.11
+  5.50      6.22    6.09
+  5.60      6.18    6.07
+  5.70      6.14    6.05
+  5.80      6.11    6.03
+  5.90      6.09    6.02
+  6.00      6.06    6.01
+  6.10      6.05    6.00
+  6.20      6.03    5.99
+  6.30      6.02    5.97
+  6.40      6.00    5.96
+  6.50      5.99    5.95
+  6.60      5.98    5.93
+  6.70      5.96    5.91
+  6.80      5.95    5.88
+  6.90      5.93    5.86
+  7.00      5.91    5.82
+  7.10      5.89    5.79
+  7.20      5.86    5.74
+  7.30      5.83    5.69
+  7.40      5.79    5.64
+  7.50      5.75    5.58
+  7.60      5.70    5.52
+  7.70      5.64    5.46
+  7.80      5.58    5.40
+  7.90      5.52    5.34
+  8.00      5.45    5.28
+  8.10      5.38    5.22
+  8.20      5.30    5.16
+  8.30      5.23    5.10
+  8.40      5.16    5.05
+  8.50      5.08    4.99
+  8.60      5.00    4.93
+  8.70      4.91    4.87
+  8.80      4.82    4.80
+  8.90      4.72    4.72
+  9.00      4.60    4.63
+  9.10      4.47    4.52
+  9.20      4.32    4.39
+  9.30      4.14    4.24
+  9.40      3.94    4.06
+  9.50      3.70    3.84
+  9.60      3.43    3.60
+  9.70      3.13    3.31
+  9.80      2.79    2.99
+  9.90      2.42    2.63
+ 10.00      2.03    2.24
+ 10.10      1.62    1.82
+ 10.20      1.19    1.37
+ 10.30      0.76    0.92
+ 10.40      0.32    0.47
+ 10.50     -0.10    0.02
+ 10.60     -0.50   -0.41
+ 10.70     -0.88   -0.81
+ 10.80     -1.23   -1.19
+ 10.90     -1.56   -1.53
+ 11.00     -1.86   -1.85
+ 11.10     -2.13   -2.14
+ 11.20     -2.38   -2.41
+ 11.30     -2.62   -2.66
+ 11.40     -2.84   -2.90
+ 11.50     -3.06   -3.13
+ 11.60     -3.28   -3.36
+ 11.70     -3.50   -3.60
+ 11.80     -3.74   -3.86
+ 11.90     -4.00   -4.12
+ 12.00     -4.28   -4.41
+ 12.10     -4.58   -4.71
+ 12.20     -4.90   -5.02
+ 12.30     -5.24   -5.35
+ 12.40     -5.59   -5.69
+ 12.50     -5.95   -6.03
+ 12.60     -6.30   -6.36
+ 12.70     -6.65   -6.69
+ 12.80     -6.97   -6.99
+ 12.90     -7.27   -7.28
+ 13.00     -7.54   -7.54
+ 13.10     -7.78   -7.77
+ 13.20     -7.99   -7.98
+ 13.30     -8.17   -8.15
+ 13.40     -8.32   -8.30
+ 13.50     -8.45   -8.43
+ 13.60     -8.55   -8.54
+ 13.70     -8.64   -8.63
+ 13.80     -8.71   -8.70
+ 13.90     -8.77   -8.76
+ 14.00     -8.81   -8.81
+The pI is 10.51 (folded) and 10.48 (unfolded)
+
+--------------------------------------------------------------------------------------------------------
+2024-12-03 16:11:54,803 INFO:biomolecule.py:794:apply_pka_values:Applying pKa values at a pH of 7.00:
+2024-12-03 16:11:54,804 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2024-12-03 16:11:54,946 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2024-12-03 16:11:54,946 INFO:__init__.py:370:initialize_wat_optimization:Initializing water bonding optimization...
+2024-12-03 16:11:54,989 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2024-12-03 16:11:54,992 INFO:main.py:722:non_trivial:Regenerating headers.
+2024-12-03 16:11:54,993 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2024-12-03 16:11:55,012 WARNING:main.py:320:print_pqr:Ignoring 1264 header lines in output.
+2024-12-03 16:11:55,012 WARNING:main.py:324:print_pqr:Ignoring 14 missing lines in output.

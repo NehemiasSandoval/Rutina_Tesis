@@ -1,0 +1,20 @@
+GMRES Tolerance = 1e-05
+The linear system for U_tot was solved in 31 iterations
+Solvation Energy : -129.42109250 [kcal/mol] 
+Se usaran25Puntos de cuadratura gaussiana
+Aproximated Solvation energy -105.551381
+The flat refinement was done in 0.01 seconds
+Loading the built grid.
+
+The grid was uniformly refined in 0.01 seconds
+Usando la adj_grid 1BPI_0.056-0_adj_4.msh
+GMRES Tolerance = 1e-05
+The linear system for U_tot was solved in 31 iterations
+Solvation Energy : -129.42109250 [kcal/mol] 
+Se usaran25Puntos de cuadratura gaussiana
+Aproximated Solvation energy -105.551381
+The flat refinement was done in 0.01 seconds
+Loading the built grid.
+
+The grid was uniformly refined in 0.01 seconds
+Usando la adj_grid 1BPI_0.056-0_adj_4.msh

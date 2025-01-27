@@ -1,0 +1,1 @@
+/content/drive/MyDrive/Refinamiento_Adaptativo/General/Software/pkg_nanoshaper_0.7.8/NanoShaper: line 14:  1967 Segmentation fault      (core dumped) $SCRIPT_DIR/NanoShaper.bin $1

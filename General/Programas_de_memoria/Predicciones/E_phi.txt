@@ -1,0 +1,139 @@
+        elif estimator == 'E_phi':
+
+            mesh_info.mol_name     = name
+            mesh_info.mesh_density = dens
+            mesh_info.suffix       = input_suffix
+            mesh_info.path         = os.path.join('Molecule' , mesh_info.mol_name)
+
+            mesh_info.q , mesh_info.x_q = run_pqr(mesh_info.mol_name)
+
+            init_time_0 = time.time()
+            mesh_info.u_space , mesh_info.u_order     = 'DP' , 0
+            mesh_info.phi_space , mesh_info.phi_order = 'P' , 1
+            mesh_info.u_s_space , mesh_info.u_s_order = 'P' , 1
+
+            if input_suffix == '-0' and not sphere:
+                grid = Grid_loader( mesh_info.mol_name , mesh_info.mesh_density , mesh_info.suffix , Mallador, GAMer = False)
+                if grid == "Abort":
+                   print("Error al crear la malla, cancelando rutina")
+                   return("Error linea 409",0,0,0,0,0,0,0,0)
+            else:
+                print('Loading previus mesh')
+                grid = Grid_loader( mesh_info.mol_name , mesh_info.mesh_density , mesh_info.suffix, 'Self')
+                if grid == "Abort":
+                   print("Error al crear la malla, cancelando rutina")
+                   return("Error linea 415",0,0,0,0,0,0,0,0)
+            print('Total time to create and load the mesh {0:.6f} [s]'.format(t_0))
+            t_0 = time.time() - init_time_0
+
+            face_array = np.transpose(grid.elements)
+            vert_array = np.transpose(grid.vertices)
+
+            init_time = time.time()
+            U, dU , spaces_time_U , operators_time_U , assembly_time_U , GMRES_time_U , UdU_time, it_count_U = U_tot_boundary(grid, mesh_info.q, mesh_info.x_q
+                                                        , return_time = True , save_plot=True , tolerance = 1e-5)
+            total_solving_time = time.time() - init_time
+            print('Total solving time for U and dU: {0:.4f}'.format(total_solving_time))
+
+            phi , dphi , adj_grid = phi_with_N_ref(name , grid , face_array , vert_array ,
+                            dens , input_suffix , N_ref , mesh_info.q, mesh_info.x_q, return_grid = True)
+
+            U_R , dU_R = U_Reac( U, dU , potential.dirichl_space_u , potential.neumann_space_u, mesh_info.q, mesh_info.x_q)
+
+            init_time = time.time()
+            S_trad = S_trad_calc_R( potential.dirichl_space_u, potential.neumann_space_u , U , dU, mesh_info.x_q )
+            t_S_trad = time.time()-init_time
+            print('Measured time to obtain S_trad : {0:.4f}'.format(t_S_trad))
+
+            adj_face_array = np.transpose(adj_grid.elements)
+            adj_vert_array = np.transpose(adj_grid.vertices)
+
+            init_time = time.time()
+            S_Ap , S_Ap_i , relation = Aproximated_Sol_Adj_UDP0( U_R , dU_R , phi , dphi , face_array , vert_array ,
+                                     adj_face_array , adj_vert_array , 1 , grid , adj_grid , N_ref ,
+                                                        return_relation=True)
+            S_Ap_time = time.time() - init_time
+
+            [S_Ex , S_Ex_i , it_count_phi , N_El_adj , flat_ref_time_adj , spaces_time_adj , operators_time_adj ,
+             #(mol_name , grid  , dens , input_suffix , N ,save_energy_plot=False  , test_mode = False , return_times = False)
+            matrix_time_adj , GMRES_time_adj , phidphi_time , S_Ex_time]  = S_Exact_in_Adjoint_Mesh_with_N_Ref_Pool(name , grid , dens , input_suffix , N , N_ref, mesh_info.q, mesh_info.x_q,Mallador , save_energy_plot=False , test_mode=True , return_times = True)
+            total_phi_time = matrix_time_adj + GMRES_time_adj + phidphi_time
+            print('Time to solve the adjoint and dependencies: {0:.2f}'.format(total_phi_time))
+            print('Time to calculate S_ex: {0:.2f}'.format(S_Ex_time))
+
+            init_time_E = time.time()
+            const_space = bempp.api.function_space(grid,  "DP", 0)
+            S_Ap_bempp = bempp.api.GridFunction(const_space, fun=None, coefficients=S_Ap_i[:,0])
+            S_Ex_bempp    = bempp.api.GridFunction(const_space, fun=None, coefficients=S_Ex_i)
+
+            dif =S_Ap_i[:,0]-S_Ex_i
+            error_max, error_max_area, ratio_max, pot_max, pot = error_test(dif, grid, mesh_info.q, mesh_info.x_q)
+            dif_F = bempp.api.GridFunction(const_space, fun=None, coefficients=np.abs(dif))
+
+            bempp.api.export('Molecule/' + name +'/' + name + '_{0}{1}_N_ref_{2:d}.msh'.format( dens,
+                                                                input_suffix , N_ref )
+                             , grid_function = dif_F , data_type = 'element')
+            E_time = time.time()-init_time_E
+
+
+            if True: #Marked elements
+                init_time_status = time.time()
+                face_array = np.transpose(grid.elements) + 1
+                status = value_assignor_starter(face_array , np.abs(dif[:,0]) , percentaje)
+                const_space = bempp.api.function_space(grid,  "DP", 0)
+                Status    = bempp.api.GridFunction(const_space, fun=None, coefficients=status)
+                status_time = time.time()-init_time_status
+                bempp.api.export('Molecule/' + name +'/' + name + '_{0}{1}_Marked_elements_{2}.msh'.format(
+                                                dens, input_suffix , N_ref )
+                             , grid_function = Status , data_type = 'element')
+
+            face_array = np.transpose(grid.elements)+1
+            vert_array = np.transpose(grid.vertices)
+
+            N_elements = len(face_array)
+            smoothing_time = 0
+            mesh_refiner_time = 0
+            GAMer_time = 0
+            if refine:
+                init_time_mesh_refiner = time.time()
+                new_face_array , new_vert_array = mesh_refiner(face_array , vert_array , np.abs(dif) , percentaje )
+                vert_and_face_arrays_to_text_and_mesh( name , new_vert_array , new_face_array.astype(int)[:] ,
+                                                        output_suffix, dens , Self_build=True)
+
+                grid = Grid_loader( name , dens , output_suffix ,'Self')
+                if grid == "Abort":
+                   print("Error al crear la malla, cancelando rutina")
+                   return("Error linea 496",0,0,0,0,0,0,0,0)
+                mesh_refiner_time  = time.time()-init_time_mesh_refiner
+                if smooth:
+                    init_time_smoothing = time.time()
+
+                    fine_vert_array = np.loadtxt('Molecule/{0}/{0}_40.0-1.vert'.format(mesh_info.mol_name))[:,:3]
+                    aux_vert_array  = smoothing_vertex( new_vert_array , fine_vert_array )
+                    vert_and_face_arrays_to_text_and_mesh( name , aux_vert_array , new_face_array.astype(int)[:] ,
+                                                        output_suffix, dens , Self_build=True)
+                    smoothing_time      = time.time()-init_time_smoothing
+                elif not smooth:
+                    aux_vert_array = new_vert_array.copy()
+
+
+            if Use_GAMer:
+                init_time_GAMer = time.time()
+                new_face_array, new_vert_array = use_pygamer (new_face_array , aux_vert_array , mesh_info.path ,
+                                                                  mesh_info.mol_name+ '_' + str(dens) + output_suffix, N_it_smoothing)
+                vert_and_face_arrays_to_text_and_mesh( name , new_vert_array , new_face_array.astype(int)[:] ,
+                                                        output_suffix, dens , Self_build=True)
+
+                grid = Grid_loader( name , dens , output_suffix ,'Self')
+                if grid == "Abort":
+                   print("Error al crear la malla, cancelando rutina")
+                   return("Error linea 520",0,0,0,0,0,0,0,0)
+                GAMer_time = time.time()-init_time_GAMer
+
+            t_ref =time.time()- init_time_ref
+            times = np.array([ spaces_time_U , operators_time_U , assembly_time_U ,
+                              GMRES_time_U , UdU_time, t_S_trad, S_Ap_time, flat_ref_time_adj ,spaces_time_adj ,
+                              operators_time_adj , matrix_time_adj , GMRES_time_adj , phidphi_time ,
+                              S_Ex_time , E_time , status_time , mesh_refiner_time , smoothing_time  ,
+                              GAMer_time ])
+            return ( N_El_adj, S_trad , S_Ap , S_Ex , N_elements , N_El_adj , it_count_U  , times , Parametros_geometricos )

@@ -1,0 +1,30 @@
+GMRES Tolerance = 1e-05
+The linear system for U_tot was solved in 33 iterations
+Solvation Energy : -131.43114206 [kcal/mol] 
+Se usaran25Puntos de cuadratura gaussiana
+Aproximated Solvation energy -110.859347
+The flat refinement was done in 0.02 seconds
+Loading the built grid.
+
+The grid was uniformly refined in 0.02 seconds
+Usando la adj_grid 9PTI_0.056-0_adj_4.msh
+The linear system for phi was solved in 90 iterations
+Iniciando rutina Exact_aproach_with_u_s_Teo_Pool puede tomar un tiempo
+Exact_aproach_with_u_s_Teo_Pool Starting
+Se usaran25Puntos de cuadratura gaussiana
+Startign integration
+GMRES Tolerance = 1e-05
+The linear system for U_tot was solved in 33 iterations
+Solvation Energy : -131.43114206 [kcal/mol] 
+Se usaran25Puntos de cuadratura gaussiana
+Aproximated Solvation energy -110.859347
+The flat refinement was done in 0.01 seconds
+Loading the built grid.
+
+The grid was uniformly refined in 0.01 seconds
+Usando la adj_grid 9PTI_0.056-0_adj_4.msh
+The linear system for phi was solved in 90 iterations
+Iniciando rutina Exact_aproach_with_u_s_Teo_Pool puede tomar un tiempo
+Exact_aproach_with_u_s_Teo_Pool Starting
+Se usaran25Puntos de cuadratura gaussiana
+Startign integration
