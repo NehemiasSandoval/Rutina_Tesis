@@ -2,7 +2,8 @@
 #include <casc/casc>
 #include <gamer/gamer.h>
 #include <gamer/SurfaceMesh.h>
-#include <memory>  // Para std::unique_ptr
+#include <memory> // Para std::unique_ptr
+#include <cstdlib> // Para std::stoi (convierte string a int)
 
 int main(int argc, char** argv) {
     // Verifica si el archivo de entrada fue proporcionado como argumento
@@ -16,6 +17,12 @@ int main(int argc, char** argv) {
 
     // Nombre del archivo de salida (opcional, con valor predeterminado)
     std::string output_file = (argc >= 3) ? argv[2] : "output_file.off";
+
+    // Número de iteraciones para el suavizado (opcional, sin valor predeterminado)
+    int max_iterations = (argc >= 4) ? std::stoi(argv[3]) : -1; // -1 indica que no se aplicará suavizado
+
+    // Flag para preservar las crestas
+    bool preserve_ridges = true; // Esto también podría ser un parámetro opcional si se desea
 
     // Llamar a gamer::readOFF para leer el archivo y obtener un SurfaceMesh
     auto mesh = gamer::readOFF(file_path);
@@ -33,16 +40,23 @@ int main(int argc, char** argv) {
         std::cout << "Volumen negativo. Invirtiendo las normales..." << std::endl;
         // Invertir las normales si el volumen es negativo
         gamer::flipNormals(*mesh);
-        
+
         // Verificar el volumen nuevamente
         double corrected_volume = gamer::getVolume(*mesh);
         std::cout << "Volumen corregido: " << corrected_volume << std::endl;
     }
 
-    // Escribir la malla al archivo de salida
+    // Aplicar suavizado si se especificó un número de iteraciones
+    if (max_iterations > 0) {
+        std::cout << "Suavizando la malla con " << max_iterations << " iteraciones..." << std::endl;
+        gamer::smoothMesh(*mesh, max_iterations, preserve_ridges);
+    } else {
+        std::cout << "No se especificó número de iteraciones. Saltando el suavizado." << std::endl;
+    }
+
+    // Escribir la malla (suavizada o no) al archivo de salida
     gamer::writeOFF(output_file, *mesh);
     std::cout << "Archivo de salida generado: " << output_file << std::endl;
 
     return 0;
 }
-
